@@ -30,7 +30,7 @@ pageextension 50182 NewFieldPurchaseOrderLine extends "Purchase Order Subform"
 
                 action("Quality Compos. Value Entry")
                 {
-                    ApplicationArea = Reservation;
+                    ApplicationArea = All;
                     Caption = 'Quality Compos. Value Entry';
                     Ellipsis = true;
                     Image = Reserve;
@@ -43,6 +43,23 @@ pageextension 50182 NewFieldPurchaseOrderLine extends "Purchase Order Subform"
                         ShowQualityValueEntry();
                     end;
                 }
+                action("Document Quality")
+                {
+                    ApplicationArea = all;
+                    Caption = 'Document Quality';
+                    Ellipsis = true;
+                    Image = Reserve;
+                    Enabled = Rec.Type = Rec.Type::Item;
+                    ToolTip = 'Document Quality';
+
+                    trigger OnAction()
+                    var
+                        DocQlty: Record "Archive Document Qlty Header";
+                    begin
+                        DocQlty.FindArchiveDocumentQualityHeader(38, 1, rec."Document No.", '', 0, rec."Line No.")
+                    end;
+                }
+
             }
         }
     }

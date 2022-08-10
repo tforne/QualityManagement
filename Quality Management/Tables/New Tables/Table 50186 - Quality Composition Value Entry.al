@@ -73,7 +73,7 @@ table 50186 "Quality Compos. Value Entry"
         field(30; "Qlty Measure Group Code"; code[10])
         {
             DataClassification = ToBeClassified;
-            TableRelation = "Quality Measures Group";
+            TableRelation = "Quality Measure Group";
             Editable = false;
         }
 

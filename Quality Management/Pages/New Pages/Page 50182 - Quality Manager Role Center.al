@@ -606,6 +606,28 @@ page 50182 "Quality Manager Role Center"
                     ToolTip = 'Opens the list of issued finance charge memos.';
                 }
             }
+            group(Quality)
+            {
+                Caption = 'Quality';
+                Image = Setup;
+                ToolTip = 'Overview and change quality settings';
+                Visible = true;
+                action("Quality Setup")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Quality Setup';
+                    Image = QuestionaireSetup;
+                    RunObject = Page "Quality Setup";
+                    ToolTip = 'Set up core quality information';
+                }
+                action("Archive Docs. Quality")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Archive Docs. Quality';
+                    RunObject = Page "Archive Document Qlty Header";
+                    ToolTip = '';
+                }
+            }
 #if not CLEAN18
             group(SetupAndExtensions)
             {

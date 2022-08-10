@@ -17,9 +17,15 @@ page 50180 "Quality Setup"
                 field("User Id. Quality Manager"; Rec."User Id. Quality Manager")
                 {
                     ApplicationArea = Basic, Suite;
-                    DrillDownPageID = "User Group Members";
-                    ToolTip = 'Specifies the number of sales orders that are not fully posted.';
+                    DrillDownPageID = "User Lookup";
+                    ToolTip = 'Specifies the User Quality Manager';
                 }
+                field("Archive Doc. Quality Nos."; Rec."Archive Doc. Quality Nos.")
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the User Quality Manager';
+                }
+
             }
         }
     }
@@ -28,20 +34,35 @@ page 50180 "Quality Setup"
     {
         area(processing)
         {
+            action(InicializeQualityModule)
+            {
+                ApplicationArea = All;
+                Caption = 'Inicialize Quality Module';
+
+                trigger OnAction()
+                var
+                    QualityManagementInstall: Codeunit 50180;
+                begin
+                    QualityManagementInstall.Golive;
+                end;
+            }
         }
         area(navigation)
         {
-            action(Actions50180)
+            action(QualityMeasuresGroup)
             {
                 ApplicationArea = Basic, Suite;
-                //Caption = 'Commiss. Sales Persons Setup';
-                //Image = Setup;
-                // Promoted = true;
-                // PromotedCategory = Category4;
-                // PromotedIsBig = true;
-                //RunObject = Page 99302;
+                Caption = 'Quality measures group';
+                Image = Setup;
+                RunObject = Page 50183;
             }
-
+            action(QualityMeasures)
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Quality measures';
+                Image = Setup;
+                RunObject = Page "Quality measures";
+            }
         }
     }
 

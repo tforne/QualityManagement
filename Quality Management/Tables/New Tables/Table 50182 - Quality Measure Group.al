@@ -1,10 +1,10 @@
-table 50182 "Quality Measures Group"
+table 50182 "Quality Measure Group"
 {
     // version OneData016.01.00
 
     Caption = 'Quality Cue';
-    DrillDownPageID = 50180;
-    LookupPageID = 50180;
+    DrillDownPageID = 50183;
+    LookupPageID = 50183;
 
     fields
     {

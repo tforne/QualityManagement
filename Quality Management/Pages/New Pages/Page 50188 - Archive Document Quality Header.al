@@ -1,12 +1,12 @@
-page 50188 "Archive Compos. Quality Header"
+page 50188 "Archive Document Qlty Header"
 {
     // version OneData016.01.00
 
     PageType = Card;
-    SourceTable = 50184;
+    SourceTable = 50187;
     ApplicationArea = All;
     UsageCategory = Administration;
-    Caption = 'Archive Composition Quality';
+    Caption = 'Archive Document Quality Header';
 
 
     layout

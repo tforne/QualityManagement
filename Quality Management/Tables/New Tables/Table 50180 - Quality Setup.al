@@ -24,7 +24,7 @@ table 50180 "Quality Setup"
             Caption = 'Full Name Quality Manager';
             Editable = false;
         }
-        field(10; "Archive Compos. Quality Nos."; Code[20])
+        field(10; "Archive Doc. Quality Nos."; Code[20])
         {
             AccessByPermission = TableData Insurance = R;
             Caption = 'Archive Compos. Quality Nos.';
