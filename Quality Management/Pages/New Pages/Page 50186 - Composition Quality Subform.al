@@ -50,5 +50,5 @@ page 50186 "Composition Quality Subform"
     }
 
     var
-        SalesOrderSubform: record "Sales Line";
+        SalesOrderSubform: page 392;
 }

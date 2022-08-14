@@ -57,23 +57,38 @@ page 50184 "Composition Quality Header"
     {
         area(processing)
         {
+            action("Load quality measures")
+            {
+                ApplicationArea = All;
+                Caption = 'Load quality measures';
+                Image = ImportCodes;
+                Promoted = true;
+                PromotedCategory = Category5;
+                ToolTip = 'Load quality measures';
+
+                trigger OnAction()
+                begin
+                    Rec.LoadQualityMesures(Rec.code);
+                end;
+            }
+
         }
         area(navigation)
         {
-            action("Action50184")
+            action("Co&mments")
             {
-                //ApplicationArea = Basic, Suite;
-                //Caption = 'Commiss. Sales Persons Setup';
-                //Image = Setup;
-                // Promoted = true;
-                // PromotedCategory = Category4;
-                // PromotedIsBig = true;
-                //RunObject = Page 99302;
+                ApplicationArea = All;
+                Caption = 'Co&mments';
+                Image = ViewComments;
+                ToolTip = 'View or add comments for the record.';
+
+                trigger OnAction()
+                begin
+                    Rec.ShowComments();
+                end;
             }
         }
     }
-    var
-        SalesOrder: page "Sales order";
 
 }
 

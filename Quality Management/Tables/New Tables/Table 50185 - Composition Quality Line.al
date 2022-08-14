@@ -30,7 +30,8 @@ table 50185 "Composition Quality Line"
                 QualityMeasure: record "Quality Measure";
             begin
                 if not QualityMeasure.get(rec."Qlty Measure Code") then QualityMeasure.init;
-                rec.Description := QualityMeasure.Description
+                rec.Description := QualityMeasure.Description;
+                REC."Qlty Measure Group Code" := QualityMeasure."Quality Measure Group";
             end;
         }
         field(5; "Qlty Measure Group Code"; code[10])
@@ -65,8 +66,6 @@ table 50185 "Composition Quality Line"
     {
     }
 
-    var
-        tomas: record "Sales Line";
 
 }
 

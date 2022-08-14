@@ -10,7 +10,7 @@ pageextension 50185 NewFieldQualityMeasure extends "Quality Measures"
                 ApplicationArea = All;
 
             }
-            field("Composition Quality Group"; Rec."Composition Quality Group")
+            field("Quality Measure Group"; Rec."Quality Measure Group")
             {
                 ApplicationArea = All;
 

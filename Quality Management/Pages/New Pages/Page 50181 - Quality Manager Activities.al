@@ -4,7 +4,7 @@ page 50181 "Quality Manager Activities"
     PageType = CardPart;
     RefreshOnActivate = true;
     SourceTable = "Quality Cue";
-    Permissions = tabledata "Sales Cue" = rm;
+    Permissions = tabledata "Quality Cue" = rm;
 
     layout
     {
@@ -16,19 +16,19 @@ page 50181 "Quality Manager Activities"
                 field("Comp. Qlty - Open"; Rec."Comp. Qlty - Open")
                 {
                     ApplicationArea = Basic, Suite;
-                    DrillDownPageID = "Headers Composition Quality";
+                    DrillDownPageID = "Composition Quality Headers";
                     ToolTip = 'Specifies the number of Composition Quality opened.';
                 }
                 field("Comp. Qlty - Pending Approval"; Rec."Comp. Qlty - Pending Approval")
                 {
                     ApplicationArea = Basic, Suite;
-                    DrillDownPageID = "Headers Composition Quality";
+                    DrillDownPageID = "Composition Quality Headers";
                     ToolTip = 'Specifies the number of Composition Quality opened.';
                 }
                 field("Sales Shipment - Pending Qlty."; Rec."Sales Shipment - Pending Qlty.")
                 {
                     ApplicationArea = Basic, Suite;
-                    DrillDownPageID = "Headers Composition Quality";
+                    DrillDownPageID = "Composition Quality Headers";
                     ToolTip = 'Specifies the number of Composition Quality opened.';
                 }
                 actions

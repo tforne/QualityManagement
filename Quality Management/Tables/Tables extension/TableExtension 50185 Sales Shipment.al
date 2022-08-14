@@ -1,4 +1,4 @@
-tableextension 50181 NewFieldPurchaseHeader extends "Purchase Header"
+tableextension 50185 NewFieldSalesShipment extends "Sales Shipment Header"
 {
     fields
     {
@@ -8,21 +8,10 @@ tableextension 50181 NewFieldPurchaseHeader extends "Purchase Header"
         {
             TableRelation = "Composition Quality Header";
             trigger OnValidate();
-            var
-            begin
-
-            end;
-        }
-        field(50181; "Cast No. Vendor"; Text[50])
-        {
-            trigger OnValidate();
-            var
 
             begin
 
             end;
         }
     }
-    var
-        ReserveEntry: Record "Reservation Entry";
 }

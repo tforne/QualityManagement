@@ -11,7 +11,7 @@ pageextension 50182 NewFieldPurchaseOrderLine extends "Purchase Order Subform"
 
             }
             //Visible = true;
-            field("No. colada proveedor"; Rec."No. colada proveedor")
+            field("Cast No. Vendor"; Rec."Cast No. Vendor")
             {
                 ApplicationArea = All;
 

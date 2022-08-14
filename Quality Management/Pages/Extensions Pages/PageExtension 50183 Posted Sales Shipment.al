@@ -2,7 +2,19 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
 {
     layout
     {
+        addafter(General)
+        {
+            group("Quality Information")
+            {
+                //Visible = true;
+                field("Composition Quality Code"; Rec."Composition Quality Code")
+                {
+                    ApplicationArea = All;
 
+                }
+            }
+            // Add changes to page layout here
+        }
     }
     actions
     {

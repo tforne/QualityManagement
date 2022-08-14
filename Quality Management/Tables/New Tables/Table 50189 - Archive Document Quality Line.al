@@ -1,9 +1,9 @@
-table 50187 "Archive Document Qlty Header"
+table 50189 "Archive Document Qlty Line"
 {
 
-    Caption = 'Archive Document Quality Header';
-    DrillDownPageID = 50189;
-    LookupPageID = 50189;
+    Caption = 'Archive Document Quality Line';
+    DrillDownPageID = 50185;
+    LookupPageID = 50185;
 
 
     fields
@@ -14,7 +14,6 @@ table 50187 "Archive Document Qlty Header"
         }
         field(2; "Composition Quality Code"; Code[20])
         {
-            TableRelation = "Quality Measure Group";
             DataClassification = ToBeClassified;
         }
         field(3; "Description"; Text[50])
@@ -33,59 +32,68 @@ table 50187 "Archive Document Qlty Header"
         {
             DataClassification = ToBeClassified;
         }
-        field(9; "No. Series"; Code[20])
+        field(20; "No. colada proveedor"; Text[50])
         {
-            Caption = 'No. Series';
-            Editable = false;
-            TableRelation = "No. Series";
-        }
-        field(8; "Creation Date"; Date)
-        {
-            Caption = 'Creation Date';
-        }
-        field(10; "Source Type"; Integer)
-        {
-            Caption = 'Source Type';
-        }
-        field(11; "Source Subtype"; Option)
-        {
-            Caption = 'Source Subtype';
-            OptionCaption = '0,1,2,3,4,5,6,7,8,9,10';
-            OptionMembers = "0","1","2","3","4","5","6","7","8","9","10";
-        }
-        field(12; "Source ID"; Code[20])
-        {
-            Caption = 'Source ID';
-        }
-        field(13; "Source Batch Name"; Code[10])
-        {
-            Caption = 'Source Batch Name';
-        }
-        field(14; "Source Prod. Order Line"; Integer)
-        {
-            Caption = 'Source Prod. Order Line';
-        }
-        field(15; "Source Ref. No."; Integer)
-        {
-            Caption = 'Source Ref. No.';
-        }
-        field(16; "Item No."; code[20])
-        {
-            Caption = 'Item No.';
-            Editable = false;
-            TableRelation = "No. Series";
-
-        }
-        field(20; "Cast No. Vendor"; Text[50])
-        {
-            Caption = 'Cast No. Vendor';
+            Caption = 'No. Colada';
             Editable = false;
             trigger OnValidate();
             begin
 
             end;
         }
+        field(21; "Item No."; Code[20])
+        {
+            Caption = 'Item No.';
+            TableRelation = Item;
+        }
+        field(25; "Qlty Measure Code"; code[10])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "Quality Measure";
+            trigger OnValidate()
+            var
+                QualityMeasure: record "Quality Measure";
+            begin
+                if not QualityMeasure.get(rec."Qlty Measure Code") then QualityMeasure.init;
+                rec.Description := QualityMeasure.Description
+            end;
+        }
 
+        field(30; "Qlty Measure Group Code"; code[10])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "Quality Measure Group";
+            Editable = false;
+        }
+
+        field(31; "Min. Value"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(32; "Max. Value"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+        field(33; "Value"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        field(5400; "Lot No."; Code[50])
+        {
+            Caption = 'Lot No.';
+        }
+        field(5401; "Variant Code"; Code[10])
+        {
+            Caption = 'Variant Code';
+            TableRelation = "Item Variant".Code WHERE("Item No." = FIELD("Item No."));
+        }
+        field(6515; "Package No."; Code[50])
+        {
+            Caption = 'Package No.';
+            CaptionClass = '6,1';
+            Editable = false;
+        }
     }
 
     keys
@@ -98,20 +106,7 @@ table 50187 "Archive Document Qlty Header"
     fieldgroups
     {
     }
-    trigger OnInsert()
-    var
-        IsHandled: Boolean;
-    begin
-        IsHandled := false;
-        if IsHandled then
-            exit;
 
-        if "Document No." = '' then begin
-            QualitySetup.Get();
-            QualitySetup.TestField("Archive Doc. Quality Nos.");
-            NoSeriesMgt.InitSeries(QualitySetup."Archive Doc. Quality Nos.", xRec."No. Series", 0D, "Document No.", "No. Series");
-        end;
-    end;
 
     var
         Customer: record "Sales Header";
@@ -124,12 +119,9 @@ table 50187 "Archive Document Qlty Header"
     end;
 
     procedure FindArchiveDocumentQualityHeader(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
-                                        SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean;
+                                        SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean
     var
         ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
-        SalesHeader: Record "Sales Header";
-        PurchaseHeader: Record "Purchase Header";
-        PurchaseLine: record "Purchase Line";
         ArchiveDocQlty: Page "Archive Document Qlty Header";
     begin
         clear(ArchiveDocQltyHeader);
@@ -141,25 +133,6 @@ table 50187 "Archive Document Qlty Header"
                 ArchiveDocQltyHeader."Source Batch Name" := SourceBatchName;
                 ArchiveDocQltyHeader."Source Prod. Order Line" := SourceProdOrderLine;
                 ArchiveDocQltyHeader."Source Ref. No." := SourceRefNo;
-                case SourceType of
-                    36:
-                        begin
-                            if SalesHeader.get(SourceSubtype, SourceID) then begin
-                                ArchiveDocQltyHeader."Composition Quality Code" := SalesHeader."Composition Quality Code";
-                            end;
-                        end;
-                    38:
-                        begin
-                            if PurchaseHeader.get(SourceSubtype, SourceID) then begin
-                                ArchiveDocQltyHeader."Composition Quality Code" := PurchaseHeader."Composition Quality Code";
-                            end;
-                            if SourceRefNo <> 0 then begin
-                                if PurchaseLine.get(SourceSubtype, SourceID, SourceRefNo) then begin
-                                    ArchiveDocQltyHeader."Item No." := PurchaseLine."No.";
-                                end;
-                            end;
-                        end;
-                end;
                 ArchiveDocQltyHeader.modify;
             end;
         end;

@@ -1,19 +1,19 @@
-page 50188 "Archive Document Qlty Header"
+page 50189 "Archive Document Qlty Headers"
 {
     // version OneData016.01.00
-
-    PageType = Card;
+    PageType = List;
     SourceTable = 50187;
     ApplicationArea = All;
     UsageCategory = Administration;
-    Caption = 'Archive Document Quality Header';
+    Caption = 'Archive Document Qlty Headers';
+    CardPageId = 50188;
 
 
     layout
     {
         area(content)
         {
-            group(General)
+            repeater(Group)
             {
                 Caption = 'General';
                 field("Document No."; Rec."Document No.")
@@ -48,14 +48,7 @@ page 50188 "Archive Document Qlty Header"
                     Editable = true;
                 }
             }
-            part("Archive Document Qlty Line"; "Archive Document Qlty Subform")
-            {
-                ApplicationArea = Basic, Suite;
-                Editable = true;
-                Enabled = true;
-                SubPageLink = "Document No." = FIELD("Document No.");
-                UpdatePropagation = Both;
-            }
+
         }
     }
 
@@ -63,6 +56,7 @@ page 50188 "Archive Document Qlty Header"
     {
         area(processing)
         {
+
         }
         area(navigation)
         {
@@ -78,8 +72,6 @@ page 50188 "Archive Document Qlty Header"
             }
         }
     }
-    var
-        SalesOrder: record 313;
 
 }
 

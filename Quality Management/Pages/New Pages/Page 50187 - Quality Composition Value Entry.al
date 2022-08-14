@@ -190,5 +190,5 @@ page 50187 "Quality Compos. Value Entry"
         [InDataSet]
         PackageTrackingVisible: Boolean;
         CancelReservationQst: Label 'Cancel reservation of %1 of item number %2, reserved for %3 from %4?';
-
+        dia: page "Item Journal Lines";
 }

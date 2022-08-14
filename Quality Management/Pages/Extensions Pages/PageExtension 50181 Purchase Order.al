@@ -13,7 +13,7 @@ pageextension 50181 NewFieldPurchaseOrder extends "Purchase Order"
 
                 }
                 //Visible = true;
-                field("No. colada proveedor"; Rec."No. colada proveedor")
+                field("Cast No. Vendor"; Rec."Cast No. Vendor")
                 {
                     ApplicationArea = All;
 

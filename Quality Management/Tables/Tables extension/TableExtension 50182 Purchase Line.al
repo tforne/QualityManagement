@@ -14,7 +14,7 @@ tableextension 50182 NewFieldPurchaseLine extends "Purchase Line"
 
             end;
         }
-        field(50181; "No. colada proveedor"; Text[50])
+        field(50181; "Cast No. Vendor"; Text[50])
         {
             trigger OnValidate();
             var

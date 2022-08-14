@@ -138,6 +138,53 @@ page 50182 "Quality Manager Role Center"
         }
         area(sections)
         {
+            group(Quality)
+            {
+                Caption = 'Quality';
+                Image = Setup;
+                ToolTip = 'Overview and change quality settings';
+                Visible = true;
+                action("Quality Setup")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Quality Setup';
+                    Image = QuestionaireSetup;
+                    RunObject = Page "Quality Setup";
+                    ToolTip = 'Set up core quality information';
+                }
+                action("Quality Measures Group")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Quality Measures Group';
+                    Image = QuestionaireSetup;
+                    RunObject = Page "Quality Measures Group";
+                    ToolTip = 'Set up core quality measures groups';
+                }
+                action("Quality Measures")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Quality Measures';
+                    Image = QuestionaireSetup;
+                    RunObject = Page "Quality Measures";
+                    ToolTip = 'Set up core quality measures';
+                }
+                action("Quality Composition")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Quality Composition';
+                    Image = QuestionaireSetup;
+                    RunObject = Page "Composition Quality Headers";
+                    ToolTip = 'Set up core quality measures groups';
+                }
+                action("Archive Docs. Quality")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Archive Docs. Quality';
+                    RunObject = Page "Archive Document Qlty Headers";
+                    ToolTip = '';
+                }
+            }
+
             group(Action76)
             {
                 Caption = 'Sales';
@@ -393,308 +440,6 @@ page 50182 "Quality Manager Role Center"
                     ToolTip = 'Open the list of posted purchase receipts.';
                 }
             }
-            group(Action62)
-            {
-                Caption = 'Inventory';
-                ToolTip = 'Manage physical or service-type items that you trade in by setting up item cards with rules for pricing, costing, planning, reservation, and tracking. Set up storage places or warehouses and how to transfer between such locations. Count, adjust, reclassify, or revalue inventory.';
-                action(Action93)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Items';
-                    Image = Item;
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Item List";
-                    ToolTip = 'View or edit detailed information for the products that you trade in. The item card can be of type Inventory or Service to specify if the item is a physical unit or a labor time unit. Here you also define if items in inventory or on incoming orders are automatically reserved for outbound documents and whether order tracking links are created between demand and supply to reflect planning actions.';
-                }
-                action(Action96)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Item Journals';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Item Journal Batches";
-                    RunPageView = WHERE("Template Type" = CONST(Item),
-                                        Recurring = CONST(false));
-                    ToolTip = 'Post item transactions directly to the item ledger to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents. You can save sets of item journal lines as standard journals so that you can perform recurring postings quickly. A condensed version of the item journal function exists on item cards for quick adjustment of an items inventory quantity.';
-                }
-                action("Item Charges")
-                {
-                    ApplicationArea = Suite;
-                    Caption = 'Item Charges';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Item Charges";
-                    ToolTip = 'View or edit the codes for item charges that you can assign to purchase and sales transactions to include any added costs, such as freight, physical handling, and insurance that you incur when purchasing or selling items. This is important to ensure correct inventory valuation. For purchases, the landed cost of a purchased item consists of the vendor''s purchase price and all additional direct item charges that can be assigned to individual receipts or return shipments. For sales, knowing the cost of shipping sold items can be as vital to your company as knowing the landed cost of purchased items.';
-                }
-                action("Item Attributes")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Item Attributes';
-                    RunObject = Page "Item Attributes";
-                    ToolTip = 'Assign item attribute values to your items to enable rich searching and sorting options. When customers inquire about an item, either in correspondence or in an integrated web shop, they can then ask or search according to characteristics, such as height and model year. You can also assign item attributes to item categories, which then apply to the items that use the item categories in question.';
-                }
-                action("Item Tracking")
-                {
-                    ApplicationArea = ItemTracking;
-                    Caption = 'Item Tracking';
-                    RunObject = Page "Avail. - Item Tracking Lines";
-                    ToolTip = 'Assign serial numbers and lot numbers to any outbound or inbound document for quality assurance, recall actions, and to control expiration dates and warranties. Use the Item Tracing window to trace items with serial or lot numbers backwards and forward in their supply chain';
-                }
-                action("Item Reclassification Journals")
-                {
-                    ApplicationArea = Warehouse;
-                    Caption = 'Item Reclassification Journals';
-                    RunObject = Page "Item Journal Batches";
-                    RunPageView = WHERE("Template Type" = CONST(Transfer),
-                                        Recurring = CONST(false));
-                    ToolTip = 'Change information on item ledger entries, such as dimensions, location codes, bin codes, and serial or lot numbers.';
-                }
-                action("Phys. Inventory Journals")
-                {
-                    ApplicationArea = Warehouse;
-                    Caption = 'Phys. Inventory Journals';
-                    RunObject = Page "Item Journal Batches";
-                    RunPageView = WHERE("Template Type" = CONST("Phys. Inventory"),
-                                        Recurring = CONST(false));
-                    ToolTip = 'Select how you want to maintain an up-to-date record of your inventory at different locations.';
-                }
-                action("Assembly Orders")
-                {
-                    ApplicationArea = Assembly;
-                    Caption = 'Assembly Orders';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Assembly Orders";
-                    ToolTip = 'Combine components in simple processes without the need of manufacturing functionality. Sell assembled items by building the item to order or by picking from stock.';
-                }
-                action("Drop Shipments")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Drop Shipments';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Sales Lines";
-                    RunPageView = WHERE("Drop Shipment" = CONST(true));
-                    ToolTip = 'Minimize delivery time and inventory cost by having items shipped from your vendor directly to your customer. This simply requires that you mark the sales order for drop shipment and then create a linked purchase order with the customer specified as the recipient. ';
-                }
-                action(Locations)
-                {
-                    ApplicationArea = Location;
-                    Caption = 'Locations';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page "Location List";
-                    ToolTip = 'Manage the different places or warehouses where you receive, process, or ship inventory to increase customer service and keep inventory costs low.';
-                }
-            }
-            group("Posted Documents")
-            {
-                Caption = 'Posted Documents';
-                Image = FiledPosted;
-                ToolTip = 'View the posting history for sales, shipments, and inventory.';
-                action(Action32)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Sales Invoices';
-                    Image = PostedOrder;
-                    RunObject = Page "Posted Sales Invoices";
-                    ToolTip = 'Open the list of posted sales invoices.';
-                }
-                action(Action34)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Sales Credit Memos';
-                    Image = PostedOrder;
-                    RunObject = Page "Posted Sales Credit Memos";
-                    ToolTip = 'Open the list of posted sales credit memos.';
-                }
-                action("Posted Return Receipts")
-                {
-                    ApplicationArea = SalesReturnOrder;
-                    Caption = 'Posted Return Receipts';
-                    Image = PostedReturnReceipt;
-                    RunObject = Page "Posted Return Receipts";
-                    ToolTip = 'Open the list of posted return receipts.';
-                }
-                action(Action40)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Sales Shipments';
-                    Image = PostedShipment;
-                    RunObject = Page "Posted Sales Shipments";
-                    ToolTip = 'Open the list of posted sales shipments.';
-                }
-                action("Sales Quote Archive")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Sales Quote Archives';
-                    RunObject = page "Sales Quote Archives";
-                }
-                action("Sales Order Archive")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Sales Order Archives';
-                    RunObject = page "Sales Order Archives";
-                }
-                action("Sales Return Order Archives")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Sales Return Order Archives';
-                    RunObject = page "Sales Return List Archive";
-                }
-                action("Blanket Sales Order Archives")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Blanket Sales Order Archives';
-                    RunObject = page "Blanket Sales Order Archives";
-                }
-                action(Action54)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Purchase Invoices';
-                    RunObject = Page "Posted Purchase Invoices";
-                    ToolTip = 'Open the list of posted purchase invoices.';
-                }
-                action(Action86)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Purchase Credit Memos';
-                    RunObject = Page "Posted Purchase Credit Memos";
-                    ToolTip = 'Opens the list of posted purchase credit memos.';
-                }
-                action(Action87)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Purchase Return Shipments';
-                    RunObject = Page "Posted Return Shipments";
-                    ToolTip = 'Opens the list of posted purchase return shipments.';
-                }
-                action(Action53)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Posted Purchase Receipts';
-                    RunObject = Page "Posted Purchase Receipts";
-                    ToolTip = 'Open the list of posted purchase receipts.';
-                }
-                action("Posted Transfer Shipments")
-                {
-                    ApplicationArea = Location;
-                    Caption = 'Posted Transfer Shipments';
-                    RunObject = Page "Posted Transfer Shipments";
-                    ToolTip = 'Open the list of posted transfer shipments.';
-                }
-                action("Posted Transfer Receipts")
-                {
-                    ApplicationArea = Location;
-                    Caption = 'Posted Transfer Receipts';
-                    RunObject = Page "Posted Transfer Receipts";
-                    ToolTip = 'Open the list of posted transfer receipts.';
-                }
-                action("Issued Reminders")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Issued Reminders';
-                    RunObject = Page "Issued Reminder List";
-                    ToolTip = 'Opens the list of issued reminders.';
-                }
-                action("Issued Finance Charge Memos")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Issued Finance Charge Memos';
-                    RunObject = Page "Issued Fin. Charge Memo List";
-                    ToolTip = 'Opens the list of issued finance charge memos.';
-                }
-            }
-            group(Quality)
-            {
-                Caption = 'Quality';
-                Image = Setup;
-                ToolTip = 'Overview and change quality settings';
-                Visible = true;
-                action("Quality Setup")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Quality Setup';
-                    Image = QuestionaireSetup;
-                    RunObject = Page "Quality Setup";
-                    ToolTip = 'Set up core quality information';
-                }
-                action("Archive Docs. Quality")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Archive Docs. Quality';
-                    RunObject = Page "Archive Document Qlty Header";
-                    ToolTip = '';
-                }
-            }
-#if not CLEAN18
-            group(SetupAndExtensions)
-            {
-                Caption = 'Setup & Extensions';
-                Image = Setup;
-                ToolTip = 'Overview and change system and application settings, and manage extensions and services';
-                Visible = false;
-                ObsoleteState = Pending;
-                ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                ObsoleteTag = '18.0';
-                action("Assisted Setup")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Assisted Setup';
-                    Image = QuestionaireSetup;
-                    RunObject = Page "Assisted Setup";
-                    ToolTip = 'Set up core functionality such as sales tax, sending documents as email, and approval workflow by running through a few pages that guide you through the information.';
-                    ObsoleteState = Pending;
-                    ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                    ObsoleteTag = '18.0';
-                }
-                action("Manual Setup")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Manual Setup';
-                    RunObject = Page "Manual Setup";
-                    ToolTip = 'Define your company policies for business departments and for general activities by filling setup windows manually.';
-                    ObsoleteState = Pending;
-                    ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                    ObsoleteTag = '18.0';
-                }
-                action("Service Connections")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Service Connections';
-                    Image = ServiceTasks;
-                    RunObject = Page "Service Connections";
-                    ToolTip = 'Enable and configure external services, such as exchange rate updates, Microsoft Social Engagement, and electronic bank integration.';
-                    ObsoleteState = Pending;
-                    ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                    ObsoleteTag = '18.0';
-                }
-                action(Extensions)
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Extensions';
-                    Image = NonStockItemSetup;
-                    RunObject = Page "Extension Management";
-                    ToolTip = 'Install Extensions for greater functionality of the system.';
-                    ObsoleteState = Pending;
-                    ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                    ObsoleteTag = '18.0';
-                }
-                action(Workflows)
-                {
-                    ApplicationArea = Suite;
-                    Caption = 'Workflows';
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    RunObject = Page Workflows;
-                    ToolTip = 'Set up or enable workflows that connect business-process tasks performed by different users. System tasks, such as automatic posting, can be included as steps in workflows, preceded or followed by user tasks. Requesting and granting approval to create new records are typical workflow steps.';
-                    ObsoleteState = Pending;
-                    ObsoleteReason = 'The new common entry points to all Settings is introduced in the app bar''s cogwheel menu (aligned with the Office apps).';
-                    ObsoleteTag = '18.0';
-                }
-            }
-#endif
         }
         area(creation)
         {
