@@ -63,7 +63,6 @@ page 50184 "Composition Quality Header"
                 Caption = 'Load quality measures';
                 Image = ImportCodes;
                 Promoted = true;
-                PromotedCategory = Category5;
                 ToolTip = 'Load quality measures';
 
                 trigger OnAction()
@@ -89,6 +88,9 @@ page 50184 "Composition Quality Header"
             }
         }
     }
-
+    procedure Print()
+    begin
+        REPORT.RunModal(REPORT::"Certificate of Quality", true, false, Rec);
+    end;
 }
 

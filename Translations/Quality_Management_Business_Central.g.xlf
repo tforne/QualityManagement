@@ -1,0 +1,1729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Quality_Management_Business_Central">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 331772574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document Quality Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 711246786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cast No. Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Cast No. Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1407200743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creation Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Creation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 2846309017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Normative Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Legal Normative Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1441826626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw Materials Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Raw Materials Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 3263329074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 345314420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 370558406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Prod. Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Prod. Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 627063663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Ref. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Ref. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 205345179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Subtype</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Subtype - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 205345179 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Subtype - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document Quality Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 711246786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cast No. Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Cast No. Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 2846309017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Normative Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Legal Normative Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 3346356419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Max. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 2021910041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Min. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 4240543679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Package No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1056804591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Qlty Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 3954845702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Qlty Measure Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1441826626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw Materials Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Raw Materials Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment composition quality header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 399706401 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Comment Compos. Qlty Header - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Field 2846309017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Legal Normative Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Field Legal Normative Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Field 1441826626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raw Materials Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Field Raw Materials Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3432403750 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 3346356419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Max. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 2021910041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Min. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 1056804591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Qlty Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2603177837 - Field 3954845702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Composition Quality Line - Field Qlty Measure Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Movimientos de valores de calidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 4120197227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Changed By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Changed By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 2369664869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Created By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1407200743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creation Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Creation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 3346356419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Max. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 2021910041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min. Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Min. Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 4240543679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Package No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1056804591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Qlty Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 3954845702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qlty Measure Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Qlty Measure Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1251542347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Quality Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 3263329074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 345314420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 370558406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Prod. Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Prod. Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 627063663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Ref. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Ref. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 205345179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Subtype</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Subtype - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 205345179 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Subtype - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Cue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 39344658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Qlty - Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Comp. Qlty - Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 3005676566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comp. Qlty - Pending Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Comp. Qlty - Pending Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 2317658616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Shipment - Pending Qlty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Sales Shipment - Pending Qlty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3375502678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Cue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Measure Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3375502678 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Measure Group - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3375502678 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Measure Group - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3502056030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3502056030 - Field 2102368575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Compos. Quality Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field Archive Doc. Quality Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3502056030 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3502056030 - Field 829201974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Name Quality Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field Full Name Quality Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3502056030 - Field 298034456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Id. Quality Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field User Id. Quality Manager - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document Quality Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action50184</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action Action50184 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 3194075647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Init Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action Init Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 548367981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action PostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634128075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Document Qlty Headers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Headers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634128075 - Control 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Headers - Control Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2634128075 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action50184</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Headers - Action Action50184 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186505985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186505985 - Control 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Subform - Control Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 183101840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Comment Compo. Qlty Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 183101840 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment itself.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Comment Compo. Qlty Header - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 183101840 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date the comment was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Comment Compo. Qlty Header - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 183101840 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action50184</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Comment Compo. Qlty Header - Action Action50184 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Action 3000180178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Action Co&amp;mments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Action 437337540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load quality measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Action Load quality measures - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3432403750 - Action 437337540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load quality measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Header - Action Load quality measures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2886088051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composition Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Headers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2886088051 - Control 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Headers - Control Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2886088051 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action50184</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Headers - Action Action50184 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2886088051 - Action 3000180178 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Headers - Action Co&amp;mments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2886088051 - Action 3000180178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Headers - Action Co&amp;mments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 805688089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Composition Value Entry.al</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - NamedType 2287364172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel reservation of %1 of item number %2, reserved for %3 from %4?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - NamedType CancelReservationQst</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 1407200743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the entry was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Creation Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the reservation entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item that has been reserved in this entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 1482668068 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lot number of the item that is being handled with the associated document line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Lot No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 3346356419 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Max. Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 2021910041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Min. Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 4240543679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the package number of the item that is being handled with the associated document line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Package No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 1251542347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the reservation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Quality Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 3263329074 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the journal batch name if the reservation entry is related to a journal or requisition line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Batch Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 345314420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which source ID the reservation entry is related to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 627063663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a reference number for the line, which the reservation entry is related to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Ref. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 205345179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which source subtype the reservation entry is related to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Subtype - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies for which source type the reservation entry is related to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 1131619133 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Action 3836476898 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel the selected values entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Action CancelValues - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882149755 - Action 3836476898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Action CancelValues - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 3419015742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control For Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 39344658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Comp. Qlty - Open - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 3005676566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Comp. Qlty - Pending Approval - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 2317658616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Sales Shipment - Pending Qlty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Action 3497960150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales order for items or services that require partial posting.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Action New Sales Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Action 3497960150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Sales Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Action New Sales Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Action 438248642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Offer items or services to a customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Action New Sales Quote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Action 438248642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Sales Quote</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Action New Sales Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Director</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1856194291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales credit memo to revert a posted sales invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales &amp;Credit Memo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1856194291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales &amp;Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1576679897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage sales processes, view KPIs, and access your favorite items and customers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action embedding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1690647457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register received payments by manually applying them to the related customer, vendor, or bank ledger entries. Then, post the payments to G/L accounts and thereby close the related ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action CashReceiptJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1690647457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Receipt Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action CashReceiptJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3606140129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the customers that you trade with. From each customer card, you can open related information, such as sales statistics and ongoing orders, and you can define special prices and line discounts that you grant if certain conditions are met.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3606140129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3724520305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post item transactions directly to the item ledger to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents. You can save sets of item journal lines as standard journals so that you can perform recurring postings quickly. A condensed version of the item journal function exists on item cards for quick adjustment of an items inventory quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Item Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3724520305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Item Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1554554962 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the products that you trade in. The item card can be of type Inventory or Service to specify if the item is a physical unit or a labor time unit. Here you also define if items in inventory or on incoming orders are automatically reserved for outbound documents and whether order tracking links are created between demand and supply to reflect planning actions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Items - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1554554962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 561664318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any sales-related transaction directly to a customer, bank, or general ledger account instead of using dedicated documents. You can post all types of financial sales transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a sales journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 561664318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1159415319 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record your agreements with customers to sell certain products on certain delivery and payment terms. Sales orders, unlike sales invoices, allow you to ship partially, deliver directly from your vendor to your customer, initiate warehouse handling, and print various customer-facing documents. Sales invoicing is integrated in the sales order process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1159415319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3180006285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales documents that are fully shipped but not fully invoiced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrdersComplShtNotInv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3180006285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completely Shipped Not Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrdersComplShtNotInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4222419314 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales documents that are shipped but not yet invoiced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrdersShptNotInv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4222419314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipped Not Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action SalesOrdersShptNotInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3061233890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move inventory items between company locations. With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Transfer Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3061233890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Transfer Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1335269804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action42 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1978809058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up different discounts for items that you sell to the customer. An item discount is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action &amp;Line Discounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1978809058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line Discounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action &amp;Line Discounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 954668148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up different prices for items that you sell to the customer. An item price is automatically granted on invoice lines when the specified criteria are met, such as customer, quantity, or ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action &amp;Prices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 954668148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Prices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action &amp;Prices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4201773078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1814405003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Navi&amp;gate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1814405003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Navi&amp;gate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 264877360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action31 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1309467033 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list with the order lines whose shipment date has been exceeded. The following information is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order. The report also shows whether there are other items for the customer on back order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Inventory - Sales &amp;Back Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1309467033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory - Sales &amp;Back Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Inventory - Sales &amp;Back Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3751545307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of your items and their prices, for example, to send to customers. You can create the list for specific customers, campaigns, currencies, or other criteria.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Price &amp;List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3751545307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price &amp;List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Price &amp;List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 810681621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View amounts for sales, profit, invoice discount, and payment discount, as well as profit percentage, for each salesperson for a selected period. The report also shows the adjusted profit and adjusted profit percentage, which reflect any changes to the original costs of the items in the sales.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Salesperson - Sales &amp;Statistics - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 810681621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson - Sales &amp;Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Salesperson - Sales &amp;Statistics - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3092092583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the quantity not yet shipped for each customer in three periods of 30 days each, starting from a selected date. There are also columns with orders to be shipped before and after the three periods and a column with the total order detail for each customer. The report can be used to analyze a company's expected sales volume.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer - &amp;Order Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3092092583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - &amp;Order Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer - &amp;Order Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3179456745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View which customers purchase the most or owe the most in a selected period. Only customers that have either purchases during the period or a balance at the end of the period will be included.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer - &amp;Top 10 List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3179456745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer - &amp;Top 10 List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer - &amp;Top 10 List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3209082316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a list of item sales for each customer during a selected time period. The report contains information on quantity, sales amount, profit, and possible discounts. It can be used, for example, to analyze a company's customer groups.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer/&amp;Item Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3209082316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer/&amp;Item Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Customer/&amp;Item Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2973329650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2015624257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open a sales journal where you can batch post sales transactions to G/L, bank, customer, vendor and fixed assets accounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales &amp;Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2015624257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales &amp;Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2311124359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage sales prices for individual customers, for a group of customers, for all customers, or for a campaign.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Price &amp;Worksheet - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2311124359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price &amp;Worksheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Price &amp;Worksheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3784628197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View history for sales, shipments, and inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action63 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3784628197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchasing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action63 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1225303959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use blanket purchase orders as a framework for a long-term agreement between you and your vendors to buy large quantities that are to be delivered in several smaller shipments over a certain period of time. Blanket orders often cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a purchase order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Blanket Purchase Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1225303959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Blanket Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4135951594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase credit memos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4135951594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 407220332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase invoices.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 407220332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1116965951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted purchase receipts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1116965951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1497693469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens a list of posted purchase return shipments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Return Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1497693469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Return Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Purchase Return Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 291926049 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase credit memos to mirror sales credit memos that vendors send to you for incorrect or damaged items that you have paid for and then returned to the vendor. If you need more control of the purchase return process, such as warehouse documents for the physical handling, use purchase return orders, in which purchase credit memos are integrated. Purchase credit memos can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature. Note: If you have not yet paid for an erroneous purchase, you can simply cancel the posted purchase invoice to automatically revert the financial transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 291926049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4037192291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase invoices to mirror sales documents that vendors send to you. This enables you to record the cost of purchases and to track accounts payable. Posting purchase invoices dynamically updates inventory levels so that you can minimize inventory costs and provide better customer service. Purchase invoices can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4037192291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2882327954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase orders to mirror sales documents that vendors send to you. This enables you to record the cost of purchases and to track accounts payable. Posting purchase orders dynamically updates inventory levels so that you can minimize inventory costs and provide better customer service. Purchase orders allow partial receipts, unlike with purchase invoices, and enable drop shipment directly from your vendor to your customer. Purchase orders can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2882327954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1819353702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase quotes to represent your request for quotes from vendors. Quotes can be converted to purchase orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1819353702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Quotes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 849761688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create purchase return orders to mirror sales return documents that vendors send to you for incorrect or damaged items that you have paid for and then returned to the vendor. Purchase return orders enable you to ship back items from multiple purchase documents with one purchase return and support warehouse documents for the item handling. Purchase return orders can be created automatically from PDF or image files from your vendors by using the Incoming Documents feature. Note: If you have not yet paid for an erroneous purchase, you can simply cancel the posted purchase invoice to automatically revert the financial transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Return Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 849761688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Purchase Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 101427331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any purchase-related transaction directly to a vendor, bank, or general ledger account instead of using dedicated documents. You can post all types of financial purchase transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a purchase journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action PurchaseJournals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 101427331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action PurchaseJournals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 713531721 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the vendors that you trade with. From each vendor card, you can open related information, such as purchase statistics and ongoing orders, and you can define special prices and line discounts that the vendor grants you if certain conditions are met.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Vendors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 713531721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Vendors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1595006073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make quotes, orders, and credit memos to customers. Manage customers and view transaction history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action76 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1595006073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action76 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2509234963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit detailed information for the customers that you trade with. From each customer card, you can open related information, such as sales statistics and ongoing orders, and you can define special prices and line discounts that you grant if certain conditions are met.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action61 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2509234963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action61 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3953537220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move inventory items between company locations. With transfer orders, you ship the outbound transfer from one location and receive the inbound transfer at the other location. This allows you to manage the involved warehouse activities and provides more certainty that inventory quantities are updated correctly.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action68 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3953537220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Action68 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3925560610 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use blanket sales orders as a framework for a long-term agreement between you and your customers to sell large quantities that are to be delivered in several smaller shipments over a certain period of time. Blanket orders often cover only one item with predetermined delivery dates. The main reason for using a blanket order rather than a sales order is that quantities entered on a blanket order do not affect item availability and thus can be used as a worksheet for monitoring, forecasting, and planning purposes..</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Blanket Sales Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3925560610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blanket Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Blanket Sales Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 618528661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send finance charge memos to customers with delayed payments, typically following a reminder process. Finance charges are calculated automatically and added to the overdue amounts on the customer's account according to the specified finance charge terms and penalty/interest amounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Finance Charge Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 618528661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Finance Charge Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2557560783 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales credit memos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2557560783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3434938165 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales invoices.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3434938165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2974556624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales return receipts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Return Receipts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2974556624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Return Receipts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Return Receipts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1840709038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the list of posted sales shipments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Shipments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1840709038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Posted Sales Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1386416279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remind customers about overdue amounts based on reminder terms and the related reminder levels. Each reminder level includes rules about when the reminder will be issued in relation to the invoice due date or the date of the previous reminder and whether interests are added. Reminders are integrated with finance charge memos, which are documents informing customers of interests or other money penalties for payment delays.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Reminders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1386416279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Reminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1948356160 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revert the financial transactions involved when your customers want to cancel a purchase or return incorrect or damaged items that you sent to them and received payment for. To include the correct information, you can create the sales credit memo from the related posted sales invoice or you can create a new sales credit memo with copied invoice information. If you need more control of the sales return process, such as warehouse documents for the physical handling, use sales return orders, in which sales credit memos are integrated. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1948356160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1693997414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register your sales to customers and invite them to pay according to the delivery and payment terms by sending them a sales invoice document. Posting a sales invoice registers shipment and records an open receivable entry on the customer's account, which will be closed when payment is received. To manage the shipment process, use sales orders, in which sales invoicing is integrated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1693997414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2557119366 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post any sales-related transaction directly to a customer, bank, or general ledger account instead of using dedicated documents. You can post all types of financial sales transactions, including payments, refunds, and finance charge amounts. Note that you cannot post item quantities with a sales journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Journals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 2557119366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Journals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 69955983 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record your agreements with customers to sell certain products on certain delivery and payment terms. Sales orders, unlike sales invoices, allow you to ship partially, deliver directly from your vendor to your customer, initiate warehouse handling, and print various customer-facing documents. Sales invoicing is integrated in the sales order process.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 69955983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1096444838 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View sales orders in Dynamics 365 Sales that are coupled with sales orders in Business Central.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Orders - Microsoft Dynamics 365 Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1096444838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Orders - Microsoft Dynamics 365 Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Orders - Microsoft Dynamics 365 Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 734185571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make offers to customers to sell certain products on certain delivery and payment terms. While you negotiate with a customer, you can change and resend the sales quote as much as needed. When the customer accepts the offer, you convert the sales quote to a sales invoice or a sales order in which you process the sale.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 734185571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quotes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3507632001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensate your customers for incorrect or damaged items that you sent to them and received payment for. Sales return orders enable you to receive items from multiple sales documents with one sales return, automatically create related sales credit memos or other return-related documents, such as a replacement sales order, and support warehouse documents for the item handling. Note: If an erroneous sale has not been paid yet, you can simply cancel the posted sales invoice to automatically revert the financial transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Return Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3507632001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Sales Return Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1483341903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overview and change quality settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4111254078 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Archive Docs. Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 4111254078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive Docs. Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Archive Docs. Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 335716783 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up core quality measures groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Composition - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 335716783 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Composition</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Composition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1605766738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up core quality measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Measures - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 1605766738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Measures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3627296235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up core quality measures groups</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Measures Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3627296235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Measures Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Measures Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3502056030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up core quality information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3451987683 - Action 3502056030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Role Center - Action Quality Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3627296235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Measures Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Measures Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3627296235 - Control 739346273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Measures Group - Control Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3627296235 - Action 22839411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actions50180</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Measures Group - Action Actions50180 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuración calidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Control 2102368575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the User Quality Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Control Archive Doc. Quality Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Control 298034456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the User Quality Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Control User Id. Quality Manager - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Action 64231666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Action QualityMeasures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Action 2201853987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality measures group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Action QualityMeasuresGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3502056030 - Action 1387007012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inicialize Quality Module</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Action InicializeQualityModule - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate of Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 2650255390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certification of the entry of the object of an intra - Community supply into another </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Certification_of_the_entry_of_the_object_of_an_intra___Community_supply_into_another_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 4231069373" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date of issue of the certificate)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_of_issue_of_the_certificate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 2353204857" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date the object of the supply was received in the Member State of entry if the supplying trader transported or dispatched the object of the supply or if the customer dispatched the object of the supply)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_the_object_of_the_supply_was_received_in_the_Member_State_of_entry_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3604379810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date the transportation ended if the customer transported the object of the supply himself or herself)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_the_transportation_ended_if_the_customer_transported_the_object_of_the_supply_himself_or_herself_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3525452834" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1) Delete as appropriate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType deleteAsAppropriateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1701198456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EU Member State (Entry Certificate)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType EU_Member_State__Entry_Certificate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 860105185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>in/at 1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType in_atLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 2651484672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I as the customer hereby certify my receipt/the entry of the following object of an intra - Community supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType I_as_the_customer_hereby_certify_my_receipt_the_entry_of_the_following_object_of_an_intra___Community_supplyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1615269258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Member State and place of entry as part of the transport or dispatch of the object)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Member_State_and_place_of_entry_as_part_of_the_transport_or_dispatch_of_the_object_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 4257513883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple Document Types are not allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType MultipleDocumentsErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3128789872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Name and address of the customer of the intra-Community supply, if applicable, Email-address)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Name_and_address_of_the_customer_of_the_intra_Community_supply__if_applicable__E_Mail_address_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 2042516021" size-unit="char" translate="yes" xml:space="preserve">
+          <source>on</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType onLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3686030580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Quantity of the object of the supply)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Quantity_of_the_object_of_the_supply_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3146378439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>received/arrived 1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType receivedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3114043346" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference Document Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Reference_Document_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 4056010855" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Shipment_Method_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1454236915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Signature of the customer or of the authorised representative as well as the signatory's name in capitals)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Signature_of_the_customer_or_of_the_authorised_representative_as_well_as_the_signatory_s_name_in_capitals_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 306832448" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Standard commercial description - in the case of vehicles, including vehicle identification number)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Standard_commercial_description___in_the_case_of_vehicles__including_vehicle_identification_number_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 135994575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Vehicle_Registration_No_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - Control 2349984596 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to create a certificate of supply, when you sell goods to a customer in another EU country/region.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control CreateCertificatesofSupply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - Control 2349984596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Certificates of Supply if Not Already Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control CreateCertificatesofSupply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - Control 1253938103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to information from the lines on the shipment document on the certificate of supply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control PrintLineDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - Control 1253938103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Line Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control PrintLineDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Quality Measures</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing Composition Quality Header :    #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. By default, the working date is entered, but you can change it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Control 3319880214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the  group of the quality measures that is processed by the report or batch job.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control QualityMeasureGroup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 807831556 - Control 3319880214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Measure Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control QualityMeasureGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 2997608588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Print the certificate of quality that you must send to your customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action PrintCertificateofQuality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 2997608588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Print Certificate of Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action PrintCertificateofQuality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 3022668702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Quality Compos. Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Headers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 3022668702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Quality Compos. Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Headers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 882149755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Quality Compos. Value Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Value Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 882149755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Quality Compos. Value Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Value Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 3316113619 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Print the Quality Certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Print Quality Certificate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 3316113619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>&amp;Print Quality Certificate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Print Quality Certificate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4075706103 - Action 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4075706103 - Action 770638302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Document Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Document Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4075706103 - Action 770638302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Document Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Document Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4075706103 - Action 882149755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Quality Compos. Value Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Quality Compos. Value Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4075706103 - Action 882149755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Quality Compos. Value Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Quality Compos. Value Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1800327958 - Field 711246786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Cast No. Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldPurchaseHeader - Field Cast No. Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1800327958 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldPurchaseHeader - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 633613053 - Field 711246786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Cast No. Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldPurchaseLine - Field Cast No. Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 633613053 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldPurchaseLine - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2965970453 - Field 2554619219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2758857511">
+          <source>Description mesure unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldQualityMeasure - Field Description mesure unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2965970453 - Field 3375502678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2758857511">
+          <source>Quality Measure Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldQualityMeasure - Field Quality Measure Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 813848939 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesHeader - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1376792101 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesLines - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1376792101 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesLines - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4255529250 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Composition Quality Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesShipment - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4251398947 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CompositionQualityStatus - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4251398947 - EnumValue 1487485508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CompositionQualityStatus - EnumValue Pending Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4251398947 - EnumValue 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Released</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CompositionQualityStatus - EnumValue Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1251542347 - EnumValue 1617659123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aceptado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Quality Status - EnumValue Aceptado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1251542347 - EnumValue 4141662914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dentro del rango</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Quality Status - EnumValue Dentro del rango - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1251542347 - EnumValue 1151787975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feura del rango</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Quality Status - EnumValue Fuera del rango - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

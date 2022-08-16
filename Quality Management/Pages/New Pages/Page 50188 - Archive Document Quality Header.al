@@ -63,6 +63,30 @@ page 50188 "Archive Document Qlty Header"
     {
         area(processing)
         {
+            action("Init Document")
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Init Document';
+                Image = Setup;
+                Promoted = true;
+                PromotedIsBig = true;
+                trigger onaction()
+                var
+                    myInt: Integer;
+                begin
+                    rec.InitArchiveDocumentQualityHeader(Rec);
+                end;
+            }
+            action(PostValue)
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Post Value';
+                Image = Post;
+                Promoted = true;
+                PromotedIsBig = true;
+                //RunObject = Page 99302;
+            }
+
         }
         area(navigation)
         {
@@ -79,7 +103,6 @@ page 50188 "Archive Document Qlty Header"
         }
     }
     var
-        SalesOrder: record 313;
 
 }
 

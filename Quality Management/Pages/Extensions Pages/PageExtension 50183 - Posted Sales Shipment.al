@@ -24,7 +24,7 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
             group("Quality")
             {
                 Caption = 'Quality';
-                action("Quality Compos. Header")
+                action("Quality Compos. Headers")
                 {
                     ApplicationArea = Reservation;
                     Caption = 'Quality Compos. Header';
@@ -54,6 +54,24 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
                         ShowQualityValueEntry();
                     end;
                 }
+                action(PrintCertificateofQuality)
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Print Certificate of Quality';
+                    Image = PrintReport;
+                    Promoted = false;
+                    ToolTip = 'Print the certificate of quality that you must send to your customer.';
+
+                    trigger OnAction()
+                    var
+                        CertificateOfSupply: Record "Certificate of Supply";
+                    begin
+                        CertificateOfSupply.SetRange("Document Type", CertificateOfSupply."Document Type"::"Sales Shipment");
+                        CertificateOfSupply.SetRange("Document No.", Rec."No.");
+                        CertificateOfSupply.Print;
+                    end;
+                }
+
             }
 
         }

@@ -12,29 +12,34 @@ table 50189 "Archive Document Qlty Line"
         {
             DataClassification = ToBeClassified;
         }
-        field(2; "Composition Quality Code"; Code[20])
+        field(2; "Line No."; Integer)
         {
             DataClassification = ToBeClassified;
         }
-        field(3; "Description"; Text[50])
+
+        field(3; "Composition Quality Code"; Code[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(4; "Legal Normative Code"; Text[50])
+        field(4; "Description"; Text[50])
         {
             DataClassification = ToBeClassified;
         }
-        field(5; "Raw Materials Group Code"; Text[20])
+        field(5; "Legal Normative Code"; Text[50])
         {
             DataClassification = ToBeClassified;
         }
-        field(6; Status; Enum CompositionQualityStatus)
+        field(6; "Raw Materials Group Code"; Text[20])
         {
             DataClassification = ToBeClassified;
         }
-        field(20; "No. colada proveedor"; Text[50])
+        field(7; Status; Enum CompositionQualityStatus)
         {
-            Caption = 'No. Colada';
+            DataClassification = ToBeClassified;
+        }
+        field(20; "Cast No. Vendor"; Text[50])
+        {
+            Caption = 'Cast No. Vendor';
             Editable = false;
             trigger OnValidate();
             begin
@@ -98,7 +103,7 @@ table 50189 "Archive Document Qlty Line"
 
     keys
     {
-        key(Key1; "Document No.")
+        key(Key1; "Document No.", "Line No.")
         {
         }
     }

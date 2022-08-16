@@ -14,7 +14,7 @@ table 50187 "Archive Document Qlty Header"
         }
         field(2; "Composition Quality Code"; Code[20])
         {
-            TableRelation = "Quality Measure Group";
+            TableRelation = "Composition Quality Header";
             DataClassification = ToBeClassified;
         }
         field(3; "Description"; Text[50])
@@ -118,8 +118,46 @@ table 50187 "Archive Document Qlty Header"
         QualitySetup: record "Quality Setup";
         NoseriesMgt: Codeunit NoSeriesManagement;
 
-    procedure SetNewArchiveDocumentQualityHeader()
+    procedure InitArchiveDocumentQualityHeader(ArchiveDocumentQlty: record "Archive Document Qlty Header")
+    var
+        ArchiveDocumentQltyLine: record "Archive Document Qlty Line";
+        CompositionQualityHeader: record "Composition Quality Header";
+        CompositionQualityLine: Record "Composition Quality Line";
+        LineNo: integer;
     begin
+        ArchiveDocumentQlty.TestField("Composition Quality Code");
+        if CompositionQualityHeader.get(ArchiveDocumentQlty."Composition Quality Code") then begin
+            ArchiveDocumentQltyLine.reset;
+            ArchiveDocumentQltyLine.setrange("Document No.", ArchiveDocumentQlty."Document No.");
+            ArchiveDocumentQltyLine.DeleteAll();
+
+            LineNo := 10000;
+            CompositionQualityLine.reset;
+            CompositionQualityLine.setrange("Composition Quality Code", CompositionQualityHeader.Code);
+            if CompositionQualityLine.FindFirst() then
+                repeat
+                    ArchiveDocumentQltyLine."Document No." := ArchiveDocumentQlty."Document No.";
+                    ArchiveDocumentQltyLine."Line No." := LineNo;
+                    ArchiveDocumentQltyLine."Composition Quality Code" := ArchiveDocumentQlty."Composition Quality Code";
+                    ArchiveDocumentQltyLine."Description" := ArchiveDocumentQlty.Description;
+                    ArchiveDocumentQltyLine."Legal Normative Code" := ArchiveDocumentQlty."Legal Normative Code";
+                    ArchiveDocumentQltyLine."Raw Materials Group Code" := ArchiveDocumentQlty."Raw Materials Group Code";
+                    ArchiveDocumentQltyLine.Status := 0;
+                    ArchiveDocumentQltyLine."Cast No. Vendor" := ArchiveDocumentQlty."Cast No. Vendor";
+                    ArchiveDocumentQltyLine."Item No." := ArchiveDocumentQlty."Item No.";
+                    ArchiveDocumentQltyLine."Qlty Measure Code" := CompositionQualityLine."Qlty Measure Code";
+                    ArchiveDocumentQltyLine."Qlty Measure Group Code" := CompositionQualityLine."Qlty Measure Group Code";
+                    ArchiveDocumentQltyLine."Min. Value" := CompositionQualityLine."Min. Value";
+                    ArchiveDocumentQltyLine."Max. Value" := CompositionQualityLine."Max. Value";
+                    ArchiveDocumentQltyLine."Value" := 0;
+                    ArchiveDocumentQltyLine."Lot No." := '';
+                    ArchiveDocumentQltyLine."Variant Code" := '';
+                    ArchiveDocumentQltyLine."Package No." := '';
+                    ArchiveDocumentQltyLine.insert;
+                    LineNo := LineNo + 10000;
+
+                until CompositionQualityLine.next = 0;
+        end;
 
     end;
 
