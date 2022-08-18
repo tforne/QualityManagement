@@ -43,10 +43,10 @@ pageextension 50182 NewFieldPurchaseOrderLine extends "Purchase Order Subform"
                         ShowQualityValueEntry();
                     end;
                 }
-                action("Document Quality")
+                action("Documents Quality")
                 {
                     ApplicationArea = all;
-                    Caption = 'Document Quality';
+                    Caption = 'Documents Quality';
                     Ellipsis = true;
                     Image = Reserve;
                     Enabled = Rec.Type = Rec.Type::Item;

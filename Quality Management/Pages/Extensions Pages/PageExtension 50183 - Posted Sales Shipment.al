@@ -2,7 +2,7 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
 {
     layout
     {
-        addafter(General)
+        addafter(Shipping)
         {
             group("Quality Information")
             {
@@ -24,19 +24,19 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
             group("Quality")
             {
                 Caption = 'Quality';
-                action("Quality Compos. Headers")
+                action("Documents Quality")
                 {
-                    ApplicationArea = Reservation;
-                    Caption = 'Quality Compos. Header';
+                    ApplicationArea = all;
+                    Caption = 'Documents Quality';
                     Ellipsis = true;
                     Image = Reserve;
-                    Enabled = true;
-                    ToolTip = 'Quality Compos. Header';
+                    ToolTip = 'Document Quality';
 
                     trigger OnAction()
+                    var
+                        DocQlty: Record "Archive Document Qlty Header";
                     begin
-                        // Find();
-                        ShowQualityValueEntry();
+                        DocQlty.FindArchiveDocumentQualityHeader(36, 1, rec."Order No.", '', 0, 0)
                     end;
                 }
                 action("Quality Compos. Value Entry")
@@ -64,36 +64,14 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
 
                     trigger OnAction()
                     var
-                        CertificateOfSupply: Record "Certificate of Supply";
+                        DocQlty: Record "Archive Document Qlty Header";
                     begin
-                        CertificateOfSupply.SetRange("Document Type", CertificateOfSupply."Document Type"::"Sales Shipment");
-                        CertificateOfSupply.SetRange("Document No.", Rec."No.");
-                        CertificateOfSupply.Print;
+                        DocQlty.Print(36, 1, rec."Order No.", '', 0, 0)
                     end;
                 }
 
             }
 
-        }
-        addafter(CertificateOfSupplyDetails)
-        {
-            action("Print Quality Certificate")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = '&Print Quality Certificate';
-                Ellipsis = true;
-                Image = Print;
-                Promoted = true;
-                PromotedCategory = Category4;
-                ToolTip = 'Print the Quality Certificate.';
-
-                trigger OnAction()
-                var
-                    SalesShptHeader: record "Sales Shipment Header";
-                begin
-                    SalesShptHeader := Rec;
-                end;
-            }
         }
     }
     procedure ShowQualityValueEntry()

@@ -16,6 +16,18 @@ table 50186 "Quality Compos. Value Entry"
             Caption = 'Item No.';
             TableRelation = Item;
         }
+        field(4; "Qlty Measure Code"; code[10])
+        {
+            DataClassification = ToBeClassified;
+            TableRelation = "Quality Measure";
+            trigger OnValidate()
+            var
+                QualityMeasure: record "Quality Measure";
+            begin
+                if not QualityMeasure.get(rec."Qlty Measure Code") then QualityMeasure.init;
+                rec.Description := QualityMeasure.Description
+            end;
+        }
         field(5; "Quality Status"; Enum "Quality Status")
         {
             Caption = 'Quality Status';
@@ -28,9 +40,12 @@ table 50186 "Quality Compos. Value Entry"
         {
             Caption = 'Creation Date';
         }
-        field(10; "Source Type"; Integer)
+        field(10; "Source Type"; Option)
         {
             Caption = 'Source Type';
+            OptionCaption = ',Sales Order,Purchase Order';
+            OptionMembers = "","Sales Order","Purchase Order";
+
         }
         field(11; "Source Subtype"; Option)
         {
@@ -105,18 +120,7 @@ table 50186 "Quality Compos. Value Entry"
             CaptionClass = '6,1';
             Editable = false;
         }
-        field(4; "Qlty Measure Code"; code[10])
-        {
-            DataClassification = ToBeClassified;
-            TableRelation = "Quality Measure";
-            trigger OnValidate()
-            var
-                QualityMeasure: record "Quality Measure";
-            begin
-                if not QualityMeasure.get(rec."Qlty Measure Code") then QualityMeasure.init;
-                rec.Description := QualityMeasure.Description
-            end;
-        }
+
     }
 
     keys

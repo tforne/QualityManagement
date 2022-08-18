@@ -72,6 +72,5 @@ page 50189 "Archive Document Qlty Headers"
             }
         }
     }
-
 }
 

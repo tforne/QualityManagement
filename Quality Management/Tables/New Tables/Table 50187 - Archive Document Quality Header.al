@@ -43,9 +43,12 @@ table 50187 "Archive Document Qlty Header"
         {
             Caption = 'Creation Date';
         }
-        field(10; "Source Type"; Integer)
+        field(10; "Source Type"; Option)
         {
             Caption = 'Source Type';
+            OptionCaption = ',Sales Order,Purchase Order';
+            OptionMembers = "","Sales Order","Purchase Order";
+
         }
         field(11; "Source Subtype"; Option)
         {
@@ -139,10 +142,10 @@ table 50187 "Archive Document Qlty Header"
                     ArchiveDocumentQltyLine."Document No." := ArchiveDocumentQlty."Document No.";
                     ArchiveDocumentQltyLine."Line No." := LineNo;
                     ArchiveDocumentQltyLine."Composition Quality Code" := ArchiveDocumentQlty."Composition Quality Code";
-                    ArchiveDocumentQltyLine."Description" := ArchiveDocumentQlty.Description;
+                    ArchiveDocumentQltyLine."Description" := CompositionQualityLine.Description;
                     ArchiveDocumentQltyLine."Legal Normative Code" := ArchiveDocumentQlty."Legal Normative Code";
                     ArchiveDocumentQltyLine."Raw Materials Group Code" := ArchiveDocumentQlty."Raw Materials Group Code";
-                    ArchiveDocumentQltyLine.Status := 0;
+                    ArchiveDocumentQltyLine.Status := ArchiveDocumentQltyLine.Status::Open;
                     ArchiveDocumentQltyLine."Cast No. Vendor" := ArchiveDocumentQlty."Cast No. Vendor";
                     ArchiveDocumentQltyLine."Item No." := ArchiveDocumentQlty."Item No.";
                     ArchiveDocumentQltyLine."Qlty Measure Code" := CompositionQualityLine."Qlty Measure Code";
@@ -167,8 +170,9 @@ table 50187 "Archive Document Qlty Header"
         ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
         SalesHeader: Record "Sales Header";
         PurchaseHeader: Record "Purchase Header";
-        PurchaseLine: record "Purchase Line";
-        ArchiveDocQlty: Page "Archive Document Qlty Header";
+        PurchaseLine: Record "Purchase Line";
+        CompositionQualityHeader: Record "Composition Quality Header";
+        ArchiveDocQlty: Page "Archive Document Qlty Headers";
     begin
         clear(ArchiveDocQltyHeader);
         if not ExistArchiveDocQltyHeader(SourceType, SourceSubtype, SourceID, SourceBatchName, SourceProdOrderLine, SourceRefNo) then begin
@@ -198,6 +202,10 @@ table 50187 "Archive Document Qlty Header"
                             end;
                         end;
                 end;
+                if CompositionQualityHeader.get(ArchiveDocQltyHeader."Composition Quality Code") then begin
+                    ArchiveDocQltyHeader.Description := CompositionQualityHeader.Description;
+                    ArchiveDocQltyHeader."Legal Normative Code" := CompositionQualityHeader."Legal Normative Code";
+                end;
                 ArchiveDocQltyHeader.modify;
             end;
         end;
@@ -222,5 +230,20 @@ table 50187 "Archive Document Qlty Header"
         exit(ArchiveDocQltyHeader.FindFirst());
     end;
 
+    procedure Print(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
+                    SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean
+    var
+        ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
+    begin
+        ArchiveDocQltyHeader.reset;
+        ArchiveDocQltyHeader.SetRange("Source Type", SourceType);
+        ArchiveDocQltyHeader.setrange("Source Subtype", SourceSubtype);
+        ArchiveDocQltyHeader.setrange("Source ID", SourceID);
+        ArchiveDocQltyHeader.setrange("Source Batch Name", SourceBatchName);
+        ArchiveDocQltyHeader.setrange("Source Prod. Order Line", SourceProdOrderLine);
+        ArchiveDocQltyHeader.setrange("Source Ref. No.", SourceRefNo);
+        if ArchiveDocQltyHeader.FindFirst() then
+            REPORT.RunModal(REPORT::"Certificate of Quality", true, false, ArchiveDocQltyHeader);
+    end;
 }
 

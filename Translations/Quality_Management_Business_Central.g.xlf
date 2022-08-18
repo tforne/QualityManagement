@@ -88,6 +88,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Sales Order,Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 331772574 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -392,6 +397,11 @@
           <source>Source Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 882149755 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Sales Order,Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 882149755 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value</source>
@@ -1413,110 +1423,100 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 2650255390" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Certification of the entry of the object of an intra - Community supply into another </source>
+        <trans-unit id="Report 1329048451 - NamedType 615051469" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cast Nr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Certification_of_the_entry_of_the_object_of_an_intra___Community_supply_into_another_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Cast_Nr_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 4231069373" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date of issue of the certificate)</source>
+        <trans-unit id="Report 1329048451 - NamedType 3912768085" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate Nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_of_issue_of_the_certificate_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Certificate_Nr_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 2353204857" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date the object of the supply was received in the Member State of entry if the supplying trader transported or dispatched the object of the supply or if the customer dispatched the object of the supply)</source>
+        <trans-unit id="Report 1329048451 - NamedType 643314386" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CHEMICAL COMPOSITION</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_the_object_of_the_supply_was_received_in_the_Member_State_of_entry_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Chemical_Composition_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3604379810" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date the transportation ended if the customer transported the object of the supply himself or herself)</source>
+        <trans-unit id="Report 1329048451 - NamedType 201185627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Date_the_transportation_ended_if_the_customer_transported_the_object_of_the_supply_himself_or_herself_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Customer_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3525452834" size-unit="char" translate="yes" xml:space="preserve">
-          <source>1) Delete as appropriate</source>
+        <trans-unit id="Report 1329048451 - NamedType 1746738262" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Nr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType deleteAsAppropriateLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Delivery_Nr_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 1701198456" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EU Member State (Entry Certificate)</source>
+        <trans-unit id="Report 1329048451 - NamedType 2677248932" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elements</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType EU_Member_State__Entry_Certificate_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Elements_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 860105185" size-unit="char" translate="yes" xml:space="preserve">
-          <source>in/at 1)</source>
+        <trans-unit id="Report 1329048451 - NamedType 4093060903" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HEAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType in_atLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Heat_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 2651484672" size-unit="char" translate="yes" xml:space="preserve">
-          <source>I as the customer hereby certify my receipt/the entry of the following object of an intra - Community supply</source>
+        <trans-unit id="Report 1329048451 - NamedType 1644894635" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MAX</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType I_as_the_customer_hereby_certify_my_receipt_the_entry_of_the_following_object_of_an_intra___Community_supplyLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Max_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 1615269258" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Member State and place of entry as part of the transport or dispatch of the object)</source>
+        <trans-unit id="Report 1329048451 - NamedType 1057275947" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MECHANICAL COMPOSITION</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Member_State_and_place_of_entry_as_part_of_the_transport_or_dispatch_of_the_object_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Mechanical_Composition_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1527080129" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Min_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 4257513883" size-unit="char" translate="yes" xml:space="preserve">
           <source>Multiple Document Types are not allowed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType MultipleDocumentsErr</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3128789872" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Name and address of the customer of the intra-Community supply, if applicable, Email-address)</source>
+        <trans-unit id="Report 1329048451 - NamedType 3060124136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NORM : DIN 17100</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Name_and_address_of_the_customer_of_the_intra_Community_supply__if_applicable__E_Mail_address_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Normative_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 2042516021" size-unit="char" translate="yes" xml:space="preserve">
-          <source>on</source>
+        <trans-unit id="Report 1329048451 - NamedType 752717614" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QUALITY CERTIFICATE</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType onLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Quality_Certificate_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3686030580" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Quantity of the object of the supply)</source>
+        <trans-unit id="Report 1329048451 - NamedType 3910644533" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Quantity_of_the_object_of_the_supply_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Referencia_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3146378439" size-unit="char" translate="yes" xml:space="preserve">
-          <source>received/arrived 1)</source>
+        <trans-unit id="Report 1329048451 - NamedType 4104633248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RESULT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType receivedLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Result_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 3114043346" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reference Document Shipment</source>
+        <trans-unit id="Report 1329048451 - NamedType 2080816380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Size (mm.)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Reference_Document_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Size_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 4056010855" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Method</source>
+        <trans-unit id="Report 1329048451 - NamedType 2586346154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Steel</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Shipment_Method_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Steel_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 1454236915" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Signature of the customer or of the authorised representative as well as the signatory's name in capitals)</source>
+        <trans-unit id="Report 1329048451 - NamedType 2702156556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Surfase</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Signature_of_the_customer_or_of_the_authorised_representative_as_well_as_the_signatory_s_name_in_capitals_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Surface_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 306832448" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Standard commercial description - in the case of vehicles, including vehicle identification number)</source>
+        <trans-unit id="Report 1329048451 - NamedType 3131072771" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Works No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Standard_commercial_description___in_the_case_of_vehicles__including_vehicle_identification_number_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 135994575" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vehicle Registration No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Vehicle_Registration_No_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 1329048451 - Control 2349984596 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to create a certificate of supply, when you sell goods to a customer in another EU country/region.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control CreateCertificatesofSupply - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 1329048451 - Control 2349984596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create Certificates of Supply if Not Already Created</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control CreateCertificatesofSupply - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Works_No_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - Control 1253938103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if you want to information from the lines on the shipment document on the certificate of supply.</source>
@@ -1527,6 +1527,126 @@
           <source>Print Line Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control PrintLineDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate of Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 2650255390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certification of the entry of the object of an intra - Community supply into another </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Certification_of_the_entry_of_the_object_of_an_intra___Community_supply_into_another_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 4231069373" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date of issue of the certificate)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_of_issue_of_the_certificate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 2353204857" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date the object of the supply was received in the Member State of entry if the supplying trader transported or dispatched the object of the supply or if the customer dispatched the object of the supply)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_the_object_of_the_supply_was_received_in_the_Member_State_of_entry_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3604379810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Date the transportation ended if the customer transported the object of the supply himself or herself)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_the_transportation_ended_if_the_customer_transported_the_object_of_the_supply_himself_or_herself_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3525452834" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1) Delete as appropriate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType deleteAsAppropriateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 1701198456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EU Member State (Entry Certificate)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType EU_Member_State__Entry_Certificate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 860105185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>in/at 1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType in_atLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 2651484672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I as the customer hereby certify my receipt/the entry of the following object of an intra - Community supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType I_as_the_customer_hereby_certify_my_receipt_the_entry_of_the_following_object_of_an_intra___Community_supplyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 1615269258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Member State and place of entry as part of the transport or dispatch of the object)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Member_State_and_place_of_entry_as_part_of_the_transport_or_dispatch_of_the_object_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 4257513883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple Document Types are not allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType MultipleDocumentsErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3128789872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Name and address of the customer of the intra-Community supply, if applicable, Email-address)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Name_and_address_of_the_customer_of_the_intra_Community_supply__if_applicable__E_Mail_address_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 2042516021" size-unit="char" translate="yes" xml:space="preserve">
+          <source>on</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType onLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3686030580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Quantity of the object of the supply)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Quantity_of_the_object_of_the_supply_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3146378439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>received/arrived 1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType receivedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 3114043346" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference Document Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Reference_Document_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 4056010855" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Shipment_Method_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 1454236915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Signature of the customer or of the authorised representative as well as the signatory's name in capitals)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Signature_of_the_customer_or_of_the_authorised_representative_as_well_as_the_signatory_s_name_in_capitals_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 306832448" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(Standard commercial description - in the case of vehicles, including vehicle identification number)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Standard_commercial_description___in_the_case_of_vehicles__including_vehicle_identification_number_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - NamedType 135994575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Vehicle_Registration_No_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - Control 2349984596 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to create a certificate of supply, when you sell goods to a customer in another EU country/region.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control CreateCertificatesofSupply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - Control 2349984596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Certificates of Supply if Not Already Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control CreateCertificatesofSupply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - Control 1253938103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to information from the lines on the shipment document on the certificate of supply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control PrintLineDetails - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3517531710 - Control 1253938103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Line Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control PrintLineDetails - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 807831556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Load Quality Measures</source>
@@ -1578,6 +1698,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 2260077251 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Document Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Documents Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1947243459 - Action 2260077251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Documents Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Documents Quality - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1947243459 - Action 2997608588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
           <source>Print the certificate of quality that you must send to your customer.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1587,16 +1717,6 @@
           <source>Print Certificate of Quality</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action PrintCertificateofQuality - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1947243459 - Action 3022668702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
-          <source>Quality Compos. Header</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Headers - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1947243459 - Action 3022668702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
-          <source>Quality Compos. Header</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Headers - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1947243459 - Action 882149755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
           <source>Quality Compos. Value Entry</source>
@@ -1608,30 +1728,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Quality Compos. Value Entry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1947243459 - Action 3316113619 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
-          <source>Print the Quality Certificate.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Print Quality Certificate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1947243459 - Action 3316113619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
-          <source>&amp;Print Quality Certificate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPostSalesShipm - Action Print Quality Certificate - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 4075706103 - Action 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
           <source>Quality</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Quality - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4075706103 - Action 770638302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+        <trans-unit id="PageExtension 4075706103 - Action 2260077251 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
           <source>Document Quality</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Document Quality - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Documents Quality - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4075706103 - Action 770638302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
-          <source>Document Quality</source>
+        <trans-unit id="PageExtension 4075706103 - Action 2260077251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Documents Quality</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Document Quality - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Documents Quality - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4075706103 - Action 882149755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
           <source>Quality Compos. Value Entry</source>
