@@ -33,7 +33,7 @@ table 50189 "Archive Document Qlty Line"
         {
             DataClassification = ToBeClassified;
         }
-        field(7; Status; Enum CompositionQualityStatus)
+        field(7; Status; Enum "Quality Status")
         {
             DataClassification = ToBeClassified;
         }
@@ -82,7 +82,31 @@ table 50189 "Archive Document Qlty Line"
         field(33; "Value"; Decimal)
         {
             DataClassification = ToBeClassified;
+
+            trigger OnValidate()
+            begin
+                rec.status := rec.status::"Dentro del rango";
+                if (rec.value < rec."Min. Value") or (rec.Value > rec."Max. Value") then
+                    rec.Status := rec.status::"Fuera del rango";
+            end;
         }
+        field(40; "Link - Source Type"; Option)
+        {
+            Caption = 'Link - Source Type';
+            OptionCaption = ',Sales Order,Purchase Order';
+            OptionMembers = "","Sales Order","Purchase Order";
+
+        }
+
+        field(42; "Link - Source ID"; Code[20])
+        {
+            Caption = 'Link - Source ID';
+            TableRelation =
+                IF ("Link - Source Type" = CONST("Sales Order")) "Sales Header"."No." WHERE("document type" = CONST("order"), "Composition Quality Code" = field("Composition Quality Code"))
+            ELSE
+            if ("Link - Source Type" = CONST("Purchase Order")) "Purchase Header"."No." WHERE("document type" = CONST("order"), "Composition Quality Code" = field("Composition Quality Code"));
+        }
+
 
         field(5400; "Lot No."; Code[50])
         {
@@ -130,13 +154,10 @@ table 50189 "Archive Document Qlty Line"
         ArchiveDocQlty: Page "Archive Document Qlty Header";
     begin
         clear(ArchiveDocQltyHeader);
-        if not ExistArchiveDocQltyHeader(SourceType, SourceSubtype, SourceID, SourceBatchName, SourceProdOrderLine, SourceRefNo) then begin
+        if not ExistArchiveDocQltyHeader(SourceType, SourceSubtype, SourceID, SourceRefNo) then begin
             if ArchiveDocQltyHeader.insert(true) then begin
                 ArchiveDocQltyHeader."Source Type" := SourceType;
-                ArchiveDocQltyHeader."Source Subtype" := SourceSubtype;
                 ArchiveDocQltyHeader."Source ID" := SourceID;
-                ArchiveDocQltyHeader."Source Batch Name" := SourceBatchName;
-                ArchiveDocQltyHeader."Source Prod. Order Line" := SourceProdOrderLine;
                 ArchiveDocQltyHeader."Source Ref. No." := SourceRefNo;
                 ArchiveDocQltyHeader.modify;
             end;
@@ -147,20 +168,28 @@ table 50189 "Archive Document Qlty Line"
         ArchiveDocQlty.RunModal();
     end;
 
-    procedure ExistArchiveDocQltyHeader(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
-                                        SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean
+    procedure ExistArchiveDocQltyHeader(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20]; SourceRefNo: Integer): Boolean
     var
         ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
     begin
         ArchiveDocQltyHeader.reset;
         ArchiveDocQltyHeader.SetRange("Source Type", SourceType);
-        ArchiveDocQltyHeader.setrange("Source Subtype", SourceSubtype);
+
         ArchiveDocQltyHeader.setrange("Source ID", SourceID);
-        ArchiveDocQltyHeader.setrange("Source Batch Name", SourceBatchName);
-        ArchiveDocQltyHeader.setrange("Source Prod. Order Line", SourceProdOrderLine);
         ArchiveDocQltyHeader.setrange("Source Ref. No.", SourceRefNo);
         exit(ArchiveDocQltyHeader.FindFirst());
     end;
 
+    procedure SetStyle(): Text
+    begin
+        case status of
+            rec.status::"Fuera del rango":
+                EXIT('Unfavorable');
+            rec.Status::"Dentro del rango":
+                EXIT('');
+            rec.status::Aceptado:
+                exit('Favorable');
+        end;
+    end;
 }
 

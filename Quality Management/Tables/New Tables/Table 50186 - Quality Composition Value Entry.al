@@ -47,12 +47,6 @@ table 50186 "Quality Compos. Value Entry"
             OptionMembers = "","Sales Order","Purchase Order";
 
         }
-        field(11; "Source Subtype"; Option)
-        {
-            Caption = 'Source Subtype';
-            OptionCaption = '0,1,2,3,4,5,6,7,8,9,10';
-            OptionMembers = "0","1","2","3","4","5","6","7","8","9","10";
-        }
         field(12; "Source ID"; Code[20])
         {
             Caption = 'Source ID';

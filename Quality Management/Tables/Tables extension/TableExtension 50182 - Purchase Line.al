@@ -24,6 +24,5 @@ tableextension 50182 NewFieldPurchaseLine extends "Purchase Line"
             end;
         }
     }
-    var
-        ReserveEntry: Record "Reservation Entry";
+
 }

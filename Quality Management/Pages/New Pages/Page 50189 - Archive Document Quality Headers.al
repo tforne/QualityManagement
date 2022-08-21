@@ -42,6 +42,17 @@ page 50189 "Archive Document Qlty Headers"
                     ApplicationArea = All;
                     Editable = true;
                 }
+                field("Source Type"; Rec."Source Type")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
+                field("Source ID"; Rec."Source ID")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
+
                 field(Status; Rec.Status)
                 {
                     ApplicationArea = All;

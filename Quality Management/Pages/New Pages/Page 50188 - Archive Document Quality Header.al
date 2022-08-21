@@ -47,6 +47,38 @@ page 50188 "Archive Document Qlty Header"
                     ApplicationArea = All;
                     Editable = true;
                 }
+
+            }
+            group(SourceDocument)
+            {
+                Caption = 'Source Document';
+
+                field("Source Type"; Rec."Source Type")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
+                field("Source ID"; Rec."Source ID")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
+
+            }
+            group(LinkDocument)
+            {
+                Caption = 'Link Document';
+
+                field("Link - Source Type"; Rec."Link - Source Type")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
+                field("Link - Source ID"; Rec."Link - Source ID")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                }
             }
             part("Archive Document Qlty Line"; "Archive Document Qlty Subform")
             {

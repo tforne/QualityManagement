@@ -25,10 +25,28 @@ page 50181 "Quality Manager Activities"
                     DrillDownPageID = "Composition Quality Headers";
                     ToolTip = 'Specifies the number of Composition Quality opened.';
                 }
-                field("Sales Shipment - Pending Qlty."; Rec."Sales Shipment - Pending Qlty.")
+                field("Sales Document - Open Qlty."; Rec."Sales Document - Open Qlty.")
                 {
                     ApplicationArea = Basic, Suite;
-                    DrillDownPageID = "Composition Quality Headers";
+                    DrillDownPageID = "Archive Document Qlty Headers";
+                    ToolTip = 'Specifies the number of Composition Quality opened.';
+                }
+                field("Sales Document - Pending Qlty."; Rec."Sales Document - Pending Qlty.")
+                {
+                    ApplicationArea = Basic, Suite;
+                    DrillDownPageID = "Archive Document Qlty Headers";
+                    ToolTip = 'Specifies the number of Composition Quality opened.';
+                }
+                field("Purch Document - Open Qlty."; Rec."Purch Document - Open Qlty.")
+                {
+                    ApplicationArea = Basic, Suite;
+                    DrillDownPageID = "Archive Document Qlty Headers";
+                    ToolTip = 'Specifies the number of Composition Quality opened.';
+                }
+                field("Purch Document - Pending Qlty."; Rec."Purch Document - Pending Qlty.")
+                {
+                    ApplicationArea = Basic, Suite;
+                    DrillDownPageID = "Archive Document Qlty Headers";
                     ToolTip = 'Specifies the number of Composition Quality opened.';
                 }
                 actions

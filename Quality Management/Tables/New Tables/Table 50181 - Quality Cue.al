@@ -24,12 +24,32 @@ table 50181 "Quality Cue"
             Editable = false;
             FieldClass = FlowField;
         }
-        field(4; "Sales Shipment - Pending Qlty."; Integer)
+        field(4; "Sales Document - Pending Qlty."; Integer)
         {
-            //CalcFormula = Count("Composition Quality Header" WHERE(Status = const("Pending Approval")));
+            FieldClass = FlowField;
             Editable = false;
-            //FieldClass = FlowField;
+            CalcFormula = Count("Archive Document Qlty Header" WHERE(Status = const("Pending Approval"), "Source Type" = const("Sales Order")));
         }
+        field(5; "Sales Document - Open Qlty."; Integer)
+        {
+            CalcFormula = Count("Archive Document Qlty Header" WHERE(Status = const("Open"), "Source Type" = const("Sales Order")));
+            Editable = false;
+            FieldClass = FlowField;
+        }
+        field(6; "Purch Document - Pending Qlty."; Integer)
+        {
+            CalcFormula = Count("Archive Document Qlty Header" WHERE(Status = const("Pending Approval"), "Source Type" = const("Purchase Order")));
+            Editable = false;
+            FieldClass = FlowField;
+
+        }
+        field(7; "Purch Document - Open Qlty."; Integer)
+        {
+            CalcFormula = Count("Archive Document Qlty Header" WHERE(Status = const("Open"), "Source Type" = const("Purchase Order")));
+            Editable = false;
+            FieldClass = FlowField;
+        }
+
     }
 
     keys
@@ -42,7 +62,5 @@ table 50181 "Quality Cue"
     fieldgroups
     {
     }
-    var
-        salesCue: Record "Sales Cue";
 }
 

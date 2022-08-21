@@ -15,6 +15,4 @@ tableextension 50180 NewFieldSalesHeader extends "Sales Header"
             end;
         }
     }
-    var
-        ReserveEntry: Record "Reservation Entry";
 }

@@ -12,6 +12,6 @@ enum 50181 "Quality Status"
     AssignmentCompatibility = true;
 
     value(0; "Dentro del rango") { Caption = 'Dentro del rango'; }
-    value(1; "Fuera del rango") { Caption = 'Feura del rango'; }
+    value(1; "Fuera del rango") { Caption = 'Fuera del rango'; }
     value(2; "Aceptado") { Caption = 'Aceptado'; }
 }

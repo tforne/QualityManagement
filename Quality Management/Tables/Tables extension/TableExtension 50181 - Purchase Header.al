@@ -23,6 +23,4 @@ tableextension 50181 NewFieldPurchaseHeader extends "Purchase Header"
             end;
         }
     }
-    var
-        ReserveEntry: Record "Reservation Entry";
 }

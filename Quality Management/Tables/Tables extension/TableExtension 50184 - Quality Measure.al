@@ -21,6 +21,4 @@ tableextension 50184 NewFieldQualityMeasure extends "Quality Measure"
         }
 
     }
-    var
-
 }

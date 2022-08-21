@@ -43,6 +43,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Legal Normative Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 331772574 - Field 1509038407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link - Source ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Link - Source ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 374199100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link - Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Link - Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 331772574 - Field 374199100 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Sales Order,Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Link - Source Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 331772574 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -53,35 +68,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Raw Materials Group Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 331772574 - Field 3263329074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Source Batch Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Batch Name - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 331772574 - Field 345314420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 331772574 - Field 370558406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Source Prod. Order Line</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Prod. Order Line - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 331772574 - Field 627063663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Ref. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Ref. No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 331772574 - Field 205345179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Source Subtype</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Subtype - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 331772574 - Field 205345179 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>0,1,2,3,4,5,6,7,8,9,10</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Source Subtype - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 331772574 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Type</source>
@@ -137,6 +132,21 @@
           <source>Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 1509038407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link - Source ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Link - Source ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 374199100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link - Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Link - Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3463698757 - Field 374199100 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Sales Order,Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Line - Field Link - Source Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3463698757 - Field 1482668068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lot No.</source>
@@ -383,16 +393,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Ref. No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 882149755 - Field 205345179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Source Subtype</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Subtype - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 882149755 - Field 205345179 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>0,1,2,3,4,5,6,7,8,9,10</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Compos. Value Entry - Field Source Subtype - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Table 882149755 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -433,10 +433,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 639751074 - Field 2317658616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales Shipment - Pending Qlty.</source>
+        <trans-unit id="Table 639751074 - Field 174838176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch Document - Open Qlty.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Sales Shipment - Pending Qlty. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Purch Document - Open Qlty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 1297587313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch Document - Pending Qlty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Purch Document - Pending Qlty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 3455024340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document - Open Qlty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Sales Document - Open Qlty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 639751074 - Field 30398213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Document - Pending Qlty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Cue - Field Sales Document - Pending Qlty. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3375502678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quality Cue</source>
@@ -487,6 +502,16 @@
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Control 1911147233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Control LinkDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Control 3873595854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Control SourceDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 331772574 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action50184</source>
@@ -678,11 +703,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Ref. No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 882149755 - Control 205345179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which source subtype the reservation entry is related to.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Compos. Value Entry - Control Source Subtype - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 882149755 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies for which source type the reservation entry is related to.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -733,10 +753,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Comp. Qlty - Pending Approval - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3587107671 - Control 2317658616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3587107671 - Control 174838176 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of Composition Quality opened.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Sales Shipment - Pending Qlty. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Purch Document - Open Qlty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 1297587313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Purch Document - Pending Qlty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 3455024340 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Sales Document - Open Qlty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3587107671 - Control 30398213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of Composition Quality opened.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Manager Activities - Control Sales Document - Pending Qlty. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3587107671 - Action 3497960150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create a new sales order for items or services that require partial posting.</source>
@@ -1423,13 +1458,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 925249410" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AVERAGE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Average_Lbl</note>
+        </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 615051469" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cast Nr.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Cast_Nr_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 3912768085" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Certificate Nr</source>
+          <source>Certificate_Nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Certificate_Nr_Lbl</note>
         </trans-unit>
@@ -1452,6 +1492,11 @@
           <source>Elements</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Elements_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1931941949" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HARDENABILITY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Hardenability_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 4093060903" size-unit="char" translate="yes" xml:space="preserve">
           <source>HEAT</source>
@@ -1829,7 +1874,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Enum Quality Status - EnumValue Dentro del rango - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1251542347 - EnumValue 1151787975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Feura del rango</source>
+          <source>Fuera del rango</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Quality Status - EnumValue Fuera del rango - Property Caption</note>
         </trans-unit>

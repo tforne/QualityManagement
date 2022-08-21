@@ -25,33 +25,65 @@ page 50190 "Archive Document Qlty Subform"
                 {
                     ApplicationArea = All;
                     Editable = true;
+                    StyleExpr = StyleTxt;
                 }
                 field("Description"; Rec.Description)
                 {
                     ApplicationArea = All;
                     Editable = true;
+                    StyleExpr = StyleTxt;
                 }
 
                 field("Qlty Measure Group Code"; Rec."Qlty Measure Group Code")
                 {
                     ApplicationArea = All;
                     Editable = true;
+                    StyleExpr = StyleTxt;
                 }
                 field("Min. Value"; Rec."Min. Value")
                 {
                     ApplicationArea = All;
                     Editable = true;
+                    StyleExpr = StyleTxt;
                 }
-                field("Max. Value"; Rec."Min. Value")
+                field("Max. Value"; Rec."Max. Value")
                 {
                     ApplicationArea = All;
                     Editable = true;
+                    StyleExpr = StyleTxt;
+                }
+                field("Link - Source Type"; Rec."Link - Source Type")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                    StyleExpr = StyleTxt;
+                }
+                field("Link - Source ID"; Rec."Link - Source ID")
+                {
+                    ApplicationArea = All;
+                    Editable = true;
+                    StyleExpr = StyleTxt;
                 }
 
                 field("Value"; Rec."Value")
                 {
                     ApplicationArea = All;
-                    Editable = true;
+                    Editable = (Rec."Link - Source ID" = '');
+                    StyleExpr = StyleTxt;
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update();
+                    end;
+                }
+                field("Status"; Rec."Status")
+                {
+                    ApplicationArea = All;
+                    Editable = (Rec."Link - Source ID" = '');
+                    StyleExpr = StyleTxt;
+                    trigger OnValidate()
+                    begin
+                        CurrPage.Update();
+                    end;
                 }
             }
         }
@@ -62,5 +94,12 @@ page 50190 "Archive Document Qlty Subform"
         {
         }
     }
+    var
+        StyleTxt: Text;
+
+    trigger OnAfterGetRecord()
+    begin
+        StyleTxt := rec.SetStyle();
+    end;
 }
 

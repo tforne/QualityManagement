@@ -43,8 +43,5 @@ table 50180 "Quality Setup"
     {
     }
     var
-        User: Record User;
-        user1: record "User Task";
-        setup: record "FA Setup";
 }
 

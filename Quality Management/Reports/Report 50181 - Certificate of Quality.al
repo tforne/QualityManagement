@@ -35,6 +35,9 @@ report 50181 "Certificate of Quality"
                 column(COMPANYCOUNTRYCODE; CompanyInfo."Country/Region Code")
                 {
                 }
+                column(CompanyInfo1Picture; CompanyInfo1.Picture)
+                {
+                }
                 column(Quality_Certificate_Lbl; Quality_Certificate_Lbl)
                 {
 
@@ -99,10 +102,6 @@ report 50181 "Certificate of Quality"
                 {
 
                 }
-                trigger OnPostDataItem()
-                begin
-
-                end;
             }
 
             trigger OnAfterGetRecord()
@@ -122,10 +121,7 @@ report 50181 "Certificate of Quality"
                 ReturnShipmentHeader: Record "Return Shipment Header";
                 CertificateOfSupply2: Record "Certificate of Supply";
             begin
-                if (GetFilter("Document No.") = '') xor
-                   (GetRangeMin("Document No.") <> GetRangeMax("Document No."))
-                then
-                    Error(MultipleDocumentsErr);
+
             end;
 
         }
@@ -155,17 +151,23 @@ report 50181 "Certificate of Quality"
     labels
     {
     }
-
     trigger OnInitReport()
     begin
         CompanyInfo.Get();
-        PrintLineDetails := true;
-
+        companyInfo1.get();
+        CompanyInfo1.CalcFields(Picture);
     end;
 
     var
+        CompanyInfo: Record "Company Information";
+        CompanyInfo1: Record "Company Information";
+        CompanyInfo2: Record "Company Information";
+        CompanyInfo3: Record "Company Information";
+        PrintLineDetails: Boolean;
+        MultipleDocumentsErr: Label 'Multiple Document Types are not allowed.';
         Quality_Certificate_Lbl: Label 'QUALITY CERTIFICATE';
-        Certificate_Nr_Lbl: Label 'Certificate Nr';
+
+        Certificate_Nr_Lbl: Label 'Certificate_Nr';
         Customer_Lbl: Label 'Customer';
         Referencia_Lbl: Label 'Reference';
         Works_No_Lbl: Label 'Works No.';
@@ -180,11 +182,10 @@ report 50181 "Certificate of Quality"
         Min_Lbl: Label 'MIN';
         Result_Lbl: Label 'RESULT';
         Max_Lbl: Label 'MAX';
-        CompanyInfo: Record "Company Information";
-        PrintLineDetails: Boolean;
-        MultipleDocumentsErr: Label 'Multiple Document Types are not allowed.';
         Mechanical_Composition_Lbl: Label 'MECHANICAL COMPOSITION';
-        Heat_Lbl : Label 'HEAT';
+        Heat_Lbl: Label 'HEAT';
+        Average_Lbl: Label 'AVERAGE';
+        Hardenability_Lbl: label 'HARDENABILITY';
 
     local procedure IsReportInPreviewMode(): Boolean
     var
@@ -204,15 +205,14 @@ report 50181 "Certificate of Quality"
         PurchaseHeader: Record "Purchase Header";
     begin
         case ArchiveDocumentQuality."Source Type" of
-            36:
+            ArchiveDocumentQuality."Source Type"::"Sales Order":
                 begin
-                    if SalesHeader.get(ArchiveDocumentQuality."Source Subtype", ArchiveDocumentQuality."Source ID") then
+                    if SalesHeader.get(1, ArchiveDocumentQuality."Source ID") then
                         exit(SalesHeader."Language Code");
-
                 end;
-            38:
+            ArchiveDocumentQuality."Source Type"::"Purchase Order":
                 begin
-                    if PurchaseHeader.get(ArchiveDocumentQuality."Source Subtype", ArchiveDocumentQuality."Source ID") then
+                    if PurchaseHeader.get(1, ArchiveDocumentQuality."Source ID") then
                         exit(PurchaseHeader."Language Code");
                 end;
         end;

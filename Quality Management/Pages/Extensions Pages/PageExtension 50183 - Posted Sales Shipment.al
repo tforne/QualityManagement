@@ -19,7 +19,7 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
     actions
     {
         // Adding a new action group 'MyNewActionGroup' in the 'Creation' area
-        addlast(processing)
+        addafter("&Shipment")
         {
             group("Quality")
             {
@@ -28,15 +28,18 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
                 {
                     ApplicationArea = all;
                     Caption = 'Documents Quality';
-                    Ellipsis = true;
-                    Image = Reserve;
                     ToolTip = 'Document Quality';
+                    Promoted = true;
+                    PromotedCategory = Category5;
+                    PromotedIsBig = true;
+                    Ellipsis = true;
+                    Image = TaskQualityMeasure;
 
                     trigger OnAction()
                     var
                         DocQlty: Record "Archive Document Qlty Header";
                     begin
-                        DocQlty.FindArchiveDocumentQualityHeader(36, 1, rec."Order No.", '', 0, 0)
+                        DocQlty.FindArchiveDocumentQualityHeader(1, rec."Order No.", 0)
                     end;
                 }
                 action("Quality Compos. Value Entry")
@@ -66,7 +69,7 @@ pageextension 50183 NewFieldPostSalesShipm extends "Posted Sales Shipment"
                     var
                         DocQlty: Record "Archive Document Qlty Header";
                     begin
-                        DocQlty.Print(36, 1, rec."Order No.", '', 0, 0)
+                        DocQlty.Print(DocQlty."Source Type"::"Sales Order", rec."Order No.", 0)
                     end;
                 }
 

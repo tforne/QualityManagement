@@ -59,13 +59,7 @@ page 50187 "Quality Compos. Value Entry"
                     ToolTip = 'Specifies for which source type the reservation entry is related to.';
                     Visible = false;
                 }
-                field("Source Subtype"; Rec."Source Subtype")
-                {
-                    ApplicationArea = All;
-                    Editable = false;
-                    ToolTip = 'Specifies which source subtype the reservation entry is related to.';
-                    Visible = false;
-                }
+
                 field("Source ID"; Rec."Source ID")
                 {
                     ApplicationArea = All;

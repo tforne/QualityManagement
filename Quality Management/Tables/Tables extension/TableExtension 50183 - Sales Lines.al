@@ -17,13 +17,8 @@ tableextension 50183 NewFieldSalesLines extends "Sales Line"
             TableRelation = "Vendor";
             trigger OnValidate();
             var
-                salesLine: Record "Sales Line";
             begin
-
             end;
         }
-
     }
-    var
-
 }

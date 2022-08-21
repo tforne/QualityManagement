@@ -48,25 +48,11 @@ table 50187 "Archive Document Qlty Header"
             Caption = 'Source Type';
             OptionCaption = ',Sales Order,Purchase Order';
             OptionMembers = "","Sales Order","Purchase Order";
+        }
 
-        }
-        field(11; "Source Subtype"; Option)
-        {
-            Caption = 'Source Subtype';
-            OptionCaption = '0,1,2,3,4,5,6,7,8,9,10';
-            OptionMembers = "0","1","2","3","4","5","6","7","8","9","10";
-        }
         field(12; "Source ID"; Code[20])
         {
             Caption = 'Source ID';
-        }
-        field(13; "Source Batch Name"; Code[10])
-        {
-            Caption = 'Source Batch Name';
-        }
-        field(14; "Source Prod. Order Line"; Integer)
-        {
-            Caption = 'Source Prod. Order Line';
         }
         field(15; "Source Ref. No."; Integer)
         {
@@ -88,9 +74,23 @@ table 50187 "Archive Document Qlty Header"
 
             end;
         }
+        field(30; "Link - Source Type"; Option)
+        {
+            Caption = 'Link - Source Type';
+            OptionCaption = ',Sales Order,Purchase Order';
+            OptionMembers = "","Sales Order","Purchase Order";
 
+        }
+
+        field(32; "Link - Source ID"; Code[20])
+        {
+            Caption = 'Link - Source ID';
+            TableRelation =
+                IF ("Link - Source Type" = CONST("Sales Order")) "Sales Header"."No." WHERE("document type" = CONST("order"), "Composition Quality Code" = field("Composition Quality Code"))
+            ELSE
+            if ("Link - Source Type" = CONST("Purchase Order")) "Purchase Header"."No." WHERE("document type" = CONST("order"), "Composition Quality Code" = field("Composition Quality Code"));
+        }
     }
-
     keys
     {
         key(Key1; "Document No.")
@@ -120,13 +120,39 @@ table 50187 "Archive Document Qlty Header"
         Customer: record "Sales Header";
         QualitySetup: record "Quality Setup";
         NoseriesMgt: Codeunit NoSeriesManagement;
+        SalesLine: Record "Purchase Line";
 
-    procedure InitArchiveDocumentQualityHeader(ArchiveDocumentQlty: record "Archive Document Qlty Header")
+    procedure CalculateValuePurchaseOrder(ArchiveDocumentQlty: record "Archive Document Qlty Header"; QltyMeasureCode: Code[20]; var _Status: Enum "Quality Status"): Decimal;
     var
+        PurchaseArchiveDocumentQlty: record "Archive Document Qlty Header";
+        PurchaseArchiveDocumentQltyLine: record "Archive Document Qlty Line";
+    begin
+        PurchaseArchiveDocumentQlty.reset;
+        PurchaseArchiveDocumentQlty.setrange("Source Type", ArchiveDocumentQlty."Source Type"::"Purchase Order");
+        PurchaseArchiveDocumentQlty.Setrange("Source ID", ArchiveDocumentQlty."Link - Source ID");
+        if PurchaseArchiveDocumentQlty.FindFirst() then begin
+            PurchaseArchiveDocumentQltyLine.reset;
+            PurchaseArchiveDocumentQltyLine.setrange("Document No.", PurchaseArchiveDocumentQlty."Document No.");
+            PurchaseArchiveDocumentQltyLine.setrange("Qlty Measure Code", QltyMeasureCode);
+            if PurchaseArchiveDocumentQltyLine.FindFirst() then begin
+                _Status := PurchaseArchiveDocumentQltyLine.Status;
+                exit(PurchaseArchiveDocumentQltyLine."Value");
+            end;
+        end;
+        exit(0);
+    end;
+
+    procedure InitArchiveDocumentQualityHeader(ArchiveDocumentQlty: record "Archive Document Qlty Header");
+    var
+        PurchaseArchiveDocumentQlty: record "Archive Document Qlty Header";
+        PurchaseArchiveDocumentQltyLine: record "Archive Document Qlty Line";
         ArchiveDocumentQltyLine: record "Archive Document Qlty Line";
         CompositionQualityHeader: record "Composition Quality Header";
         CompositionQualityLine: Record "Composition Quality Line";
+        purchaseLine: Record "Purchase Line";
         LineNo: integer;
+        _status: enum "Quality Status";
+        _Value: decimal;
     begin
         ArchiveDocumentQlty.TestField("Composition Quality Code");
         if CompositionQualityHeader.get(ArchiveDocumentQlty."Composition Quality Code") then begin
@@ -145,14 +171,29 @@ table 50187 "Archive Document Qlty Header"
                     ArchiveDocumentQltyLine."Description" := CompositionQualityLine.Description;
                     ArchiveDocumentQltyLine."Legal Normative Code" := ArchiveDocumentQlty."Legal Normative Code";
                     ArchiveDocumentQltyLine."Raw Materials Group Code" := ArchiveDocumentQlty."Raw Materials Group Code";
-                    ArchiveDocumentQltyLine.Status := ArchiveDocumentQltyLine.Status::Open;
+                    ArchiveDocumentQltyLine.Status := ArchiveDocumentQltyLine.Status::"Dentro del rango";
                     ArchiveDocumentQltyLine."Cast No. Vendor" := ArchiveDocumentQlty."Cast No. Vendor";
                     ArchiveDocumentQltyLine."Item No." := ArchiveDocumentQlty."Item No.";
                     ArchiveDocumentQltyLine."Qlty Measure Code" := CompositionQualityLine."Qlty Measure Code";
                     ArchiveDocumentQltyLine."Qlty Measure Group Code" := CompositionQualityLine."Qlty Measure Group Code";
                     ArchiveDocumentQltyLine."Min. Value" := CompositionQualityLine."Min. Value";
                     ArchiveDocumentQltyLine."Max. Value" := CompositionQualityLine."Max. Value";
+                    ArchiveDocumentQltyLine."Link - Source Type" := 0;
+                    ArchiveDocumentQltyLine."Link - Source ID" := '';
                     ArchiveDocumentQltyLine."Value" := 0;
+                    // Charge value
+                    if ArchiveDocumentQlty."Link - Source Type" = ArchiveDocumentQlty."Link - Source Type"::"Purchase Order" then begin
+                        if ArchiveDocumentQlty."Link - Source ID" <> '' then begin
+                            _Value := CalculateValuePurchaseOrder(ArchiveDocumentQlty, CompositionQualityLine."Qlty Measure Code", _status);
+                            if _Value <> 0 then begin
+                                ArchiveDocumentQltyLine."Link - Source Type" := ArchiveDocumentQlty."Link - Source Type";
+                                ArchiveDocumentQltyLine."Link - Source ID" := ArchiveDocumentQlty."Link - Source ID";
+                                ArchiveDocumentQltyLine.validate(Value, _Value);
+                                ArchiveDocumentQltyLine.Status := _status;
+                            end;
+                        end;
+                    end;
+
                     ArchiveDocumentQltyLine."Lot No." := '';
                     ArchiveDocumentQltyLine."Variant Code" := '';
                     ArchiveDocumentQltyLine."Package No." := '';
@@ -164,84 +205,78 @@ table 50187 "Archive Document Qlty Header"
 
     end;
 
-    procedure FindArchiveDocumentQualityHeader(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
-                                        SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean;
+    procedure FindArchiveDocumentQualityHeader(SourceType: Integer; SourceID: Code[20]; SourceRefNo: Integer): Boolean;
     var
-        ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
         SalesHeader: Record "Sales Header";
         PurchaseHeader: Record "Purchase Header";
         PurchaseLine: Record "Purchase Line";
         CompositionQualityHeader: Record "Composition Quality Header";
+        ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
+
         ArchiveDocQlty: Page "Archive Document Qlty Headers";
+        DocumentNo: code[20];
     begin
         clear(ArchiveDocQltyHeader);
-        if not ExistArchiveDocQltyHeader(SourceType, SourceSubtype, SourceID, SourceBatchName, SourceProdOrderLine, SourceRefNo) then begin
+        if not ExistArchiveDocQltyHeader(SourceType, SourceID, SourceRefNo, DocumentNo) then begin
             if ArchiveDocQltyHeader.insert(true) then begin
                 ArchiveDocQltyHeader."Source Type" := SourceType;
-                ArchiveDocQltyHeader."Source Subtype" := SourceSubtype;
                 ArchiveDocQltyHeader."Source ID" := SourceID;
-                ArchiveDocQltyHeader."Source Batch Name" := SourceBatchName;
-                ArchiveDocQltyHeader."Source Prod. Order Line" := SourceProdOrderLine;
                 ArchiveDocQltyHeader."Source Ref. No." := SourceRefNo;
                 case SourceType of
-                    36:
+                    ArchiveDocQltyHeader."Source Type"::"Sales Order":
                         begin
-                            if SalesHeader.get(SourceSubtype, SourceID) then begin
+                            if SalesHeader.get(1, SourceID) then begin
                                 ArchiveDocQltyHeader."Composition Quality Code" := SalesHeader."Composition Quality Code";
                             end;
                         end;
-                    38:
+                    ArchiveDocQltyHeader."Source Type"::"Purchase Order":
                         begin
-                            if PurchaseHeader.get(SourceSubtype, SourceID) then begin
+                            if PurchaseHeader.get(1, SourceID) then begin
                                 ArchiveDocQltyHeader."Composition Quality Code" := PurchaseHeader."Composition Quality Code";
                             end;
                             if SourceRefNo <> 0 then begin
-                                if PurchaseLine.get(SourceSubtype, SourceID, SourceRefNo) then begin
+                                if PurchaseLine.get(1, SourceID, SourceRefNo) then begin
                                     ArchiveDocQltyHeader."Item No." := PurchaseLine."No.";
                                 end;
                             end;
                         end;
                 end;
-                if CompositionQualityHeader.get(ArchiveDocQltyHeader."Composition Quality Code") then begin
-                    ArchiveDocQltyHeader.Description := CompositionQualityHeader.Description;
-                    ArchiveDocQltyHeader."Legal Normative Code" := CompositionQualityHeader."Legal Normative Code";
-                end;
                 ArchiveDocQltyHeader.modify;
             end;
         end;
-        commit;
+        Commit();
+        ArchiveDocQltyHeader.setrange("Source Type", SourceType);
+        ArchiveDocQltyHeader.SetRange("Source ID", SourceID);
         clear(ArchiveDocQlty);
         ArchiveDocQlty.SetRecord(ArchiveDocQltyHeader);
         ArchiveDocQlty.RunModal();
     end;
 
-    procedure ExistArchiveDocQltyHeader(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
-                                        SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean
+    procedure ExistArchiveDocQltyHeader(SourceType: Integer; SourceID: Code[20]; SourceRefNo: Integer; var DocumentNo: code[20]): Boolean
     var
         ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
     begin
+        "Document No." := '';
         ArchiveDocQltyHeader.reset;
         ArchiveDocQltyHeader.SetRange("Source Type", SourceType);
-        ArchiveDocQltyHeader.setrange("Source Subtype", SourceSubtype);
         ArchiveDocQltyHeader.setrange("Source ID", SourceID);
-        ArchiveDocQltyHeader.setrange("Source Batch Name", SourceBatchName);
-        ArchiveDocQltyHeader.setrange("Source Prod. Order Line", SourceProdOrderLine);
         ArchiveDocQltyHeader.setrange("Source Ref. No.", SourceRefNo);
-        exit(ArchiveDocQltyHeader.FindFirst());
+        if ArchiveDocQltyHeader.FindFirst() then begin
+            DocumentNo := ArchiveDocQltyHeader."Document No.";
+            exit(true)
+        end else
+            exit(false);
     end;
 
-    procedure Print(SourceType: Integer; SourceSubtype: Integer; SourceID: Code[20];
-                    SourceBatchName: Code[10]; SourceProdOrderLine: Integer; SourceRefNo: Integer): Boolean
+    procedure Print(SourceType: Integer; SourceID: Code[20]; SourceRefNo: Integer): Boolean
     var
         ArchiveDocQltyHeader: Record "Archive Document Qlty Header";
     begin
         ArchiveDocQltyHeader.reset;
         ArchiveDocQltyHeader.SetRange("Source Type", SourceType);
-        ArchiveDocQltyHeader.setrange("Source Subtype", SourceSubtype);
         ArchiveDocQltyHeader.setrange("Source ID", SourceID);
-        ArchiveDocQltyHeader.setrange("Source Batch Name", SourceBatchName);
-        ArchiveDocQltyHeader.setrange("Source Prod. Order Line", SourceProdOrderLine);
-        ArchiveDocQltyHeader.setrange("Source Ref. No.", SourceRefNo);
+        if "Source Ref. No." <> 0 then
+            ArchiveDocQltyHeader.setrange("Source Ref. No.", SourceRefNo);
         if ArchiveDocQltyHeader.FindFirst() then
             REPORT.RunModal(REPORT::"Certificate of Quality", true, false, ArchiveDocQltyHeader);
     end;
