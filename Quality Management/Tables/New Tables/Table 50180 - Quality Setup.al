@@ -30,6 +30,16 @@ table 50180 "Quality Setup"
             Caption = 'Archive Compos. Quality Nos.';
             TableRelation = "No. Series";
         }
+        field(29; "Logo Certification"; BLOB)
+        {
+            Caption = 'Logo Certification';
+            SubType = Bitmap;
+
+            trigger OnValidate()
+            begin
+
+            end;
+        }
     }
 
     keys

@@ -68,6 +68,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Raw Materials Group Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 331772574 - Field 3201609449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Shipment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Archive Document Qlty Header - Field Sales Shipment No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 331772574 - Field 345314420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -488,6 +493,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field Full Name Quality Manager - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3502056030 - Field 827325613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logo Certification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Quality Setup - Field Logo Certification - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3502056030 - Field 298034456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Id. Quality Manager</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -632,6 +642,81 @@
           <source>Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Composition Quality Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 1312499801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Interaction Template Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Interaction Template Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 3722904707 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the potencial solución field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Potencial Solucion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 2105453111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Código responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Codigo responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 2378863201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contact Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Contact Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 202036913 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contact No. field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Contact No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 323353982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Departamento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Departamento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 3095068020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description incidencia field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Descripcion incidencia - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 2950845476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 1447844495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nombre responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Nombre responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 3928989699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nº Incidencia field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Nº Interaccion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1625407406 - Control 553464652 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Salesperson Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Interaction - Control Salesperson Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 882149755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quality Composition Value Entry.al</source>
@@ -1433,6 +1518,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Control Archive Doc. Quality Nos. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3502056030 - Control 827325613 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the User Quality Manager</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Quality Setup - Control Logo Certification - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3502056030 - Control 298034456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the User Quality Manager</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1458,10 +1548,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3680187810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Approved_Lbl</note>
+        </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 925249410" size-unit="char" translate="yes" xml:space="preserve">
           <source>AVERAGE</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Average_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3373390410" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cast No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Cast_No_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 615051469" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cast Nr.</source>
@@ -1493,15 +1593,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Elements_Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 1329048451 - NamedType 1931941949" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1329048451 - NamedType 2400513865" size-unit="char" translate="yes" xml:space="preserve">
           <source>HARDENABILITY</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Hardenability_Lbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Harddenability_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 4093060903" size-unit="char" translate="yes" xml:space="preserve">
           <source>HEAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Heat_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 686710758" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MACROINCLUSIONS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Macroinclusions_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 1644894635" size-unit="char" translate="yes" xml:space="preserve">
           <source>MAX</source>
@@ -1512,6 +1617,16 @@
           <source>MECHANICAL COMPOSITION</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Mechanical_Composition_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3495504542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MICROINCLUSIONS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Microinclusions_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 2614882805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MICROSCOPIC EXAMINATION</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Microscopic_Examitacion_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 1527080129" size-unit="char" translate="yes" xml:space="preserve">
           <source>MIN</source>
@@ -1533,10 +1648,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Quality_Certificate_Lbl</note>
         </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 1433015174" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Control Departament</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Quality_Control_Departament_Lbl</note>
+        </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 3910644533" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reference</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Referencia_Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1329048451 - NamedType 3626106736" size-unit="char" translate="yes" xml:space="preserve">
+          <source>*REMARKS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - NamedType Remarks_Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1329048451 - NamedType 4104633248" size-unit="char" translate="yes" xml:space="preserve">
           <source>RESULT</source>
@@ -1572,126 +1697,6 @@
           <source>Print Line Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality - Control PrintLineDetails - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Certificate of Quality</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 2650255390" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Certification of the entry of the object of an intra - Community supply into another </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Certification_of_the_entry_of_the_object_of_an_intra___Community_supply_into_another_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 4231069373" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date of issue of the certificate)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_of_issue_of_the_certificate_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 2353204857" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date the object of the supply was received in the Member State of entry if the supplying trader transported or dispatched the object of the supply or if the customer dispatched the object of the supply)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_the_object_of_the_supply_was_received_in_the_Member_State_of_entry_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3604379810" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Date the transportation ended if the customer transported the object of the supply himself or herself)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Date_the_transportation_ended_if_the_customer_transported_the_object_of_the_supply_himself_or_herself_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3525452834" size-unit="char" translate="yes" xml:space="preserve">
-          <source>1) Delete as appropriate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType deleteAsAppropriateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 1701198456" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EU Member State (Entry Certificate)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType EU_Member_State__Entry_Certificate_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 860105185" size-unit="char" translate="yes" xml:space="preserve">
-          <source>in/at 1)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType in_atLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 2651484672" size-unit="char" translate="yes" xml:space="preserve">
-          <source>I as the customer hereby certify my receipt/the entry of the following object of an intra - Community supply</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType I_as_the_customer_hereby_certify_my_receipt_the_entry_of_the_following_object_of_an_intra___Community_supplyLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 1615269258" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Member State and place of entry as part of the transport or dispatch of the object)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Member_State_and_place_of_entry_as_part_of_the_transport_or_dispatch_of_the_object_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 4257513883" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Multiple Document Types are not allowed.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType MultipleDocumentsErr</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3128789872" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Name and address of the customer of the intra-Community supply, if applicable, Email-address)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Name_and_address_of_the_customer_of_the_intra_Community_supply__if_applicable__E_Mail_address_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 2042516021" size-unit="char" translate="yes" xml:space="preserve">
-          <source>on</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType onLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3686030580" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Quantity of the object of the supply)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Quantity_of_the_object_of_the_supply_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3146378439" size-unit="char" translate="yes" xml:space="preserve">
-          <source>received/arrived 1)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType receivedLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 3114043346" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reference Document Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Reference_Document_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 4056010855" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment Method</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Shipment_Method_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 1454236915" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Signature of the customer or of the authorised representative as well as the signatory's name in capitals)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Signature_of_the_customer_or_of_the_authorised_representative_as_well_as_the_signatory_s_name_in_capitals_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 306832448" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(Standard commercial description - in the case of vehicles, including vehicle identification number)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Standard_commercial_description___in_the_case_of_vehicles__including_vehicle_identification_number_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - NamedType 135994575" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Vehicle Registration No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - NamedType Vehicle_Registration_No_Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - Control 2349984596 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to create a certificate of supply, when you sell goods to a customer in another EU country/region.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control CreateCertificatesofSupply - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - Control 2349984596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create Certificates of Supply if Not Already Created</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control CreateCertificatesofSupply - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - Control 1253938103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to information from the lines on the shipment document on the certificate of supply.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control PrintLineDetails - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3517531710 - Control 1253938103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Print Line Details</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Certificate of Quality back - Control PrintLineDetails - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 807831556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Load Quality Measures</source>
@@ -1737,6 +1742,76 @@
           <source>Quality Measure Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control QualityMeasureGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Create Incident</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 2105453111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Código responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Codigo responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 323353982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Departamento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Departamento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 2950845476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Estado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 1447844495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Nombre responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Nombre responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 3095068020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Descripción incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Descripcion incidencia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1328109492 - Control 3722904707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
+          <source>Potencial solución</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldCreateInteraction - Control Potencial Solucion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Movs. log. incident</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Action 1966905161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Open an Incidencia with a specified contact.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Action Abrir Interaccion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Action 1966905161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Abrir Incidencia</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Abrir Incidencia"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Action Abrir Interaccion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Control 3928989699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Nº Incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Control Nº Interaccion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Control 3095068020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Descripción incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Control Descripcion incidencia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Control 2950845476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Estado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Control Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1047485046 - Change 1876160316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 603699256">
+          <source>Create Incident</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldInteractionLogEntries - Change Create &amp;Interaction - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1947243459 - Action 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
           <source>Quality</source>
@@ -1798,6 +1873,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldPurchaseOrderLine - Action Quality Compos. Value Entry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1549578484 - Change 1244613281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Open log incidents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NewFieldSalesOrder - Change PageInteractionLogEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 2105453111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Código responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Codigo responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 323353982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Departamento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Departamento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 3095068020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Descripción incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Descripcion incidencia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 2950845476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Estado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 2950845476 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Abierta,Resuelta,No Resuelta,Anulada</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Estado - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 1447844495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Nombre responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Nombre responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 3928989699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Nº Incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Nº Interaccion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 28769592 - Field 3722904707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2182196518">
+          <source>Potencial solución</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldInteractionLogEntry - Field Potencial Solucion - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1800327958 - Field 711246786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Cast No. Vendor</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1843,10 +1963,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesLines - Field Vendor No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3637472826 - Field 2913944043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Nº Serie Interacción</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesReceivablesSetup - Field Nº Serie Interaccion - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4255529250 - Field 1608463932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Composition Quality Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSalesShipment - Field Composition Quality Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 2105453111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Código responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Codigo responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 323353982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Departamento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Departamento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 3095068020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Descripción incidencia</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Descripcion incidencia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 2950845476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Estado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 2950845476 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Abierta,Resuelta,No Resuelta,Anulada</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Estado - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 1447844495 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Nombre responsable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Nombre responsable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 3928989699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Nº Interaccion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Nº Interaccion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3114142837 - Field 3722904707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 341757143">
+          <source>Potencial solución</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension NewFieldSegmentLine - Field Potencial Solucion - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4251398947 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>

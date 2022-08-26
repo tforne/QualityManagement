@@ -74,6 +74,16 @@ table 50187 "Archive Document Qlty Header"
 
             end;
         }
+        field(21; "Sales Shipment No."; Code[20])
+        {
+            Caption = 'Sales Shipment No.';
+            Editable = false;
+            trigger OnValidate();
+            begin
+
+            end;
+
+        }
         field(30; "Link - Source Type"; Option)
         {
             Caption = 'Link - Source Type';
@@ -205,9 +215,9 @@ table 50187 "Archive Document Qlty Header"
 
     end;
 
-    procedure FindArchiveDocumentQualityHeader(SourceType: Integer; SourceID: Code[20]; SourceRefNo: Integer): Boolean;
+    procedure FindArchiveDocumentQualityHeader(SourceType: Integer; SourceID: Code[20]; SourceRefNo: Integer; SalesShipmentNo: Code[20]): Boolean;
     var
-        SalesHeader: Record "Sales Header";
+        SalesShipmentHeader: Record "Sales Shipment Header";
         PurchaseHeader: Record "Purchase Header";
         PurchaseLine: Record "Purchase Line";
         CompositionQualityHeader: Record "Composition Quality Header";
@@ -222,11 +232,12 @@ table 50187 "Archive Document Qlty Header"
                 ArchiveDocQltyHeader."Source Type" := SourceType;
                 ArchiveDocQltyHeader."Source ID" := SourceID;
                 ArchiveDocQltyHeader."Source Ref. No." := SourceRefNo;
+                ArchiveDocQltyHeader."Sales Shipment No." := SalesShipmentNo;
                 case SourceType of
                     ArchiveDocQltyHeader."Source Type"::"Sales Order":
                         begin
-                            if SalesHeader.get(1, SourceID) then begin
-                                ArchiveDocQltyHeader."Composition Quality Code" := SalesHeader."Composition Quality Code";
+                            if SalesShipmentHeader.get(SalesShipmentNo) then begin
+                                ArchiveDocQltyHeader."Composition Quality Code" := SalesShipmentHeader."Composition Quality Code";
                             end;
                         end;
                     ArchiveDocQltyHeader."Source Type"::"Purchase Order":
@@ -241,6 +252,11 @@ table 50187 "Archive Document Qlty Header"
                             end;
                         end;
                 end;
+                if not CompositionQualityHeader.get(ArchiveDocQltyheader."Composition Quality Code") then CompositionQualityHeader.init;
+                ArchiveDocQltyHeader.Description := CompositionQualityHeader.Description;
+                ArchiveDocQltyHeader."Legal Normative Code" := CompositionQualityHeader."Legal Normative Code";
+                ArchiveDocQltyheader."Raw Materials Group Code" := CompositionQualityHeader."Raw Materials Group Code";
+                ArchiveDocQltyheader."Creation Date" := today;
                 ArchiveDocQltyHeader.modify;
             end;
         end;

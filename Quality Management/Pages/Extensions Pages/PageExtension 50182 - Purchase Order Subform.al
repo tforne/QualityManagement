@@ -56,7 +56,7 @@ pageextension 50182 NewFieldPurchaseOrderLine extends "Purchase Order Subform"
                     var
                         DocQlty: Record "Archive Document Qlty Header";
                     begin
-                        DocQlty.FindArchiveDocumentQualityHeader(2, rec."Document No.", rec."Line No.")
+                        DocQlty.FindArchiveDocumentQualityHeader(2, rec."Document No.", rec."Line No.", '')
                     end;
                 }
 

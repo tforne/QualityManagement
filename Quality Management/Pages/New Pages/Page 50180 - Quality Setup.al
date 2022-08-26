@@ -25,6 +25,11 @@ page 50180 "Quality Setup"
                     ApplicationArea = Basic, Suite;
                     ToolTip = 'Specifies the User Quality Manager';
                 }
+                field("Logo Certification"; Rec."Logo Certification")
+                {
+                    ApplicationArea = Basic, Suite;
+                    ToolTip = 'Specifies the User Quality Manager';
+                }
 
             }
         }

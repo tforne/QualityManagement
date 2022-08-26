@@ -15,6 +15,19 @@ pageextension 50180 NewFieldSalesOrder extends "Sales Order"
             }
             // Add changes to page layout here
         }
+
+    }
+    actions
+    {
+        modify(PageInteractionLogEntries)
+        {
+            Caption = 'Open log incidents';
+            Promoted = true;
+            PromotedCategory = Process;
+            PromotedIsBig = true;
+            PromotedOnly = true;
+        }
+        moveafter("Create &Warehouse Shipment"; PageInteractionLogEntries)
     }
     var
         salesordersubform: page "Sales Order Subform";
