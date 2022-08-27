@@ -30,5 +30,5 @@ pageextension 50180 NewFieldSalesOrder extends "Sales Order"
         moveafter("Create &Warehouse Shipment"; PageInteractionLogEntries)
     }
     var
-        salesordersubform: page "Sales Order Subform";
+
 }

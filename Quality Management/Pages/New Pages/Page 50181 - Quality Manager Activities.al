@@ -10,9 +10,9 @@ page 50181 "Quality Manager Activities"
     {
         area(content)
         {
-            cuegroup("For Release")
+            cuegroup("For Quality Measures")
             {
-                Caption = 'For Release';
+                Caption = 'For Quality Measures';
                 field("Comp. Qlty - Open"; Rec."Comp. Qlty - Open")
                 {
                     ApplicationArea = Basic, Suite;
@@ -69,8 +69,15 @@ page 50181 "Quality Manager Activities"
                     }
                 }
             }
-            cuegroup("Sales Orders Released Not Shipped")
+            cuegroup("Incidents")
             {
+                Caption = 'Incidents';
+                field("Incidents - Open"; Rec."Incidents - Open")
+                {
+                    ApplicationArea = Basic, Suite;
+                    DrillDownPageID = "Interaction Log Entries";
+                    ToolTip = 'Specifies the number of incidents opened.';
+                }
             }
             cuegroup(Returns)
             {

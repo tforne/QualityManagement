@@ -85,9 +85,9 @@ table 50189 "Archive Document Qlty Line"
 
             trigger OnValidate()
             begin
-                rec.status := rec.status::"Dentro del rango";
+                rec.status := rec.status::"Inside the range";
                 if (rec.value < rec."Min. Value") or (rec.Value > rec."Max. Value") then
-                    rec.Status := rec.status::"Fuera del rango";
+                    rec.Status := rec.status::"Out of range";
             end;
         }
         field(40; "Link - Source Type"; Option)
@@ -183,11 +183,11 @@ table 50189 "Archive Document Qlty Line"
     procedure SetStyle(): Text
     begin
         case status of
-            rec.status::"Fuera del rango":
+            rec.status::"Out of range":
                 EXIT('Unfavorable');
-            rec.Status::"Dentro del rango":
+            rec.Status::"Inside the range":
                 EXIT('');
-            rec.status::Aceptado:
+            rec.status::Accepted:
                 exit('Favorable');
         end;
     end;

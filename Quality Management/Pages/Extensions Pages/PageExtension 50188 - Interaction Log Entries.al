@@ -11,22 +11,22 @@ pageextension 50188 NewFieldInteractionLogEntries extends "Interaction Log Entri
         }
         addafter("Document No.")
         {
-            field("Nº Interaccion"; Rec."Nº Interaccion")
+            field("Incident No."; Rec."Incident No.")
             {
-                Caption = 'Nº Incidencia';
+                Caption = 'Incident No.';
                 ApplicationArea = all;
             }
         }
         addafter(Description)
         {
-            field("Descripcion incidencia"; Rec."Descripcion incidencia")
+            field("Description Incident"; Rec."Description Incident")
             {
-                Caption = 'Descripción incidencia';
+                Caption = 'Description Incident';
                 ApplicationArea = all;
             }
-            field(Estado; Rec.Estado)
+            field(Status; Rec.Status)
             {
-                Caption = 'Estado';
+                Caption = 'Status';
                 ApplicationArea = all;
             }
         }
@@ -83,10 +83,10 @@ pageextension 50188 NewFieldInteractionLogEntries extends "Interaction Log Entri
 
         addafter("Create &Interaction")
         {
-            action("Abrir Interaccion")
+            action("Open Incident")
             {
                 ApplicationArea = All;
-                Caption = 'Abrir Incidencia', comment = 'ESP="Abrir Incidencia"';
+                Caption = 'Open Incident', comment = 'Open Incident';
                 Image = CreateInteraction;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -95,10 +95,11 @@ pageextension 50188 NewFieldInteractionLogEntries extends "Interaction Log Entri
                 trigger OnAction()
                 var
                     rIntereaccion: record "Interaction Log Entry";
-                    pIntereaccion: page "Interaction";
+                    pIntereaccion: page "Create Incident";
                 begin
+                    rec.TestField("Incident No.");
                     rIntereaccion.Reset();
-                    rIntereaccion.SetRange("Nº Interaccion", Rec."Nº Interaccion");
+                    rIntereaccion.SetRange("Incident No.", Rec."Incident No.");
                     IF rIntereaccion.FINDFIRST() THEN
                         Page.RunModal(50201, rIntereaccion)
 

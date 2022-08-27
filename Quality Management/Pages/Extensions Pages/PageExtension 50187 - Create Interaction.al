@@ -6,41 +6,41 @@ pageextension 50187 NewFieldCreateInteraction extends "Create Interaction"
     {
         addafter("Salesperson Code")
         {
-            field("Codigo responsable"; Rec."Codigo responsable")
+            field("Responsible Code"; Rec."Responsible Code")
             {
-                Caption = 'Código responsable';
+                Caption = 'Responsible Code';
                 ApplicationArea = all;
             }
 
-            field("Nombre responsable"; Rec."Nombre responsable")
+            field("Responsible Name"; Rec."Responsible Name")
             {
-                Caption = 'Nombre responsable';
+                Caption = 'Responsible Name';
                 ApplicationArea = all;
             }
-            field(Departamento; Rec.Departamento)
+            field("Departament Code"; Rec."Departament Code")
             {
-                Caption = 'Departamento';
+                Caption = 'Departament Code';
                 ApplicationArea = all;
             }
-            field(Estado; Rec.Estado)
+            field(Status; Rec.Status)
             {
-                Caption = 'Estado';
+                Caption = 'Status';
                 ApplicationArea = all;
             }
         }
         addafter(Description)
         {
-            field("Descripcion incidencia"; Rec."Descripcion incidencia")
+            field("Description Incident"; Rec."Description Incident")
             {
-                caption = 'Descripción incidencia';
+                caption = 'Description Incident';
                 ApplicationArea = All;
             }
         }
         addafter(Evaluation)
         {
-            field("Potencial Solucion"; Rec."Potencial Solucion")
+            field("Proposed solution"; Rec."Proposed solution")
             {
-                caption = 'Potencial solución';
+                caption = 'Proposed solution';
                 ApplicationArea = All;
             }
         }

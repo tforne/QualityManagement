@@ -50,6 +50,12 @@ table 50181 "Quality Cue"
             FieldClass = FlowField;
         }
 
+        field(10; "Incidents - Open"; Integer)
+        {
+            CalcFormula = Count("Interaction Log Entry" WHERE(Status = const("Open"), "Quality Incident" = const(true)));
+            Editable = false;
+            FieldClass = FlowField;
+        }
     }
 
     keys

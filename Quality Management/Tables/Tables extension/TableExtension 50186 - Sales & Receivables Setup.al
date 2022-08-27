@@ -3,9 +3,9 @@ tableextension 50186 NewFieldSalesReceivablesSetup extends "Sales & Receivables 
     fields
     {
 
-        field(50202; "Nº Serie Interaccion"; Code[20])
+        field(50202; "Incident Nos."; Code[20])
         {
-            Caption = 'Nº Serie Interacción';
+            Caption = 'Incident Nos.';
             TableRelation = "No. Series".Code;
         }
     }

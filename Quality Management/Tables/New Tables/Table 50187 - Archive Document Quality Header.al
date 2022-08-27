@@ -181,7 +181,7 @@ table 50187 "Archive Document Qlty Header"
                     ArchiveDocumentQltyLine."Description" := CompositionQualityLine.Description;
                     ArchiveDocumentQltyLine."Legal Normative Code" := ArchiveDocumentQlty."Legal Normative Code";
                     ArchiveDocumentQltyLine."Raw Materials Group Code" := ArchiveDocumentQlty."Raw Materials Group Code";
-                    ArchiveDocumentQltyLine.Status := ArchiveDocumentQltyLine.Status::"Dentro del rango";
+                    ArchiveDocumentQltyLine.Status := ArchiveDocumentQltyLine.Status::"Inside the range";
                     ArchiveDocumentQltyLine."Cast No. Vendor" := ArchiveDocumentQlty."Cast No. Vendor";
                     ArchiveDocumentQltyLine."Item No." := ArchiveDocumentQlty."Item No.";
                     ArchiveDocumentQltyLine."Qlty Measure Code" := CompositionQualityLine."Qlty Measure Code";

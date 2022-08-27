@@ -23,6 +23,9 @@ codeunit 50180 QualityManagementInstall
     procedure insertQualitySetup()
     var
         QualitySetup: Record "Quality Setup";
+        SalesReceivablesSetup: Record "Sales & Receivables Setup";
+        InteractionTemplate: Record "Interaction Template";
+        InteractionGroup: Record "Interaction Group";
         NoSeries: Record "No. Series";
         NoSeriesLine: Record "No. Series Line";
 
@@ -33,6 +36,10 @@ codeunit 50180 QualityManagementInstall
         if QualitySetup.insert then;
         QualitySetup."Archive Doc. Quality Nos." := 'CAL-ARC-DOC';
         QualitySetup.modify;
+
+        if SalesReceivablesSetup.insert then;
+        SalesReceivablesSetup."Incident Nos." := 'CAL-INC';
+        SalesReceivablesSetup.Modify();
 
         NoSeries.Code := 'CAL-ARC-DOC';
         NoSeries.Description := 'Archivo docs. calidad';
@@ -46,7 +53,31 @@ codeunit 50180 QualityManagementInstall
         NoSeriesLine."Increment-by No." := 1;
         if NoSeriesLine.insert then;
 
+        NoSeries.Code := 'CAL-INC';
+        NoSeries.Description := 'Incidencias calidad';
+        if NoSeries.insert then;
 
+        NoSeriesLine."Series Code" := 'CAL-INC';
+        NoSeriesLine."Line No." := 1000;
+        NoSeriesLine."Starting Date" := 20200101D;
+        NoSeriesLine."Starting No." := 'INC-22-00001';
+        NoSeriesLine.open := true;
+        NoSeriesLine."Increment-by No." := 1;
+        if NoSeriesLine.insert then;
+
+        InteractionGroup.init;
+        InteractionGroup.Code := 'CALIDAD';
+        InteractionGroup.Description := ' Interacciones de calidad';
+        if InteractionGroup.insert then;
+
+        InteractionTemplate.init;
+        InteractionTemplate.Code := 'CAL-INCIDE';
+        InteractionTemplate.Description := 'Incidencias calidad';
+        InteractionTemplate."Interaction Group Code" := 'CALIDAD';
+        InteractionTemplate."Information Flow" := InteractionTemplate."Information Flow"::Inbound;
+        InteractionTemplate."Initiated By" := InteractionTemplate."Initiated By"::Them;
+        InteractionTemplate."Quality Incident" := true;
+        if InteractionTemplate.insert then;
 
     end;
 

@@ -2,45 +2,50 @@ tableextension 50188 NewFieldInteractionLogEntry extends "Interaction Log Entry"
 {
     fields
     {
-        field(50200; "Potencial Solucion"; Text[100])
+        field(50180; "Proposed solution"; Text[100])
         {
-            Caption = 'Potencial solución';
+            Caption = 'Proposed solution';
             DataClassification = ToBeClassified;
         }
-        field(50201; "Nº Interaccion"; Code[20])
+        field(50181; "Incident No."; Code[20])
         {
-            Caption = 'Nº Incidencia';
+            Caption = 'Incident No.';
             DataClassification = ToBeClassified;
         }
-        field(50202; "Descripcion incidencia"; text[250])
+        field(50182; "Description Incident"; text[250])
         {
-            Caption = 'Descripción incidencia';
+            Caption = 'Description Incident';
             DataClassification = ToBeClassified;
         }
-        field(50203; "Departamento"; Code[20])
+        field(50183; "Departament Code"; Code[20])
         {
-            Caption = 'Departamento';
+            Caption = 'Departament Code';
             DataClassification = ToBeClassified;
             TableRelation = Dimension.Code;
         }
 
-        field(50204; "Codigo responsable"; Code[20])
+        field(50184; "Responsible Code"; Code[20])
         {
-            Caption = 'Código responsable';
+            Caption = 'Responsible Code';
             DataClassification = ToBeClassified;
             TableRelation = Employee."No.";
         }
-        field(50205; "Nombre responsable"; Text[50])
+        field(50185; "Responsible Name"; Text[50])
         {
-            Caption = 'Nombre responsable';
+            Caption = 'Responsible Name';
             Editable = false;
             FieldClass = FlowField;
-            CalcFormula = lookup(Employee.Name where("No." = field("Codigo responsable")));
+            CalcFormula = lookup(Employee.Name where("No." = field("Responsible Code")));
         }
-        field(50206; "Estado"; Option)
+        field(50186; "Status"; Option)
         {
-            Caption = 'Estado';
-            OptionMembers = Abierta,Resuelta,"No Resuelta",Anulada;
+            Caption = 'Status';
+            OptionMembers = Open,Resolved,"Unresolved",Cancelled;
+        }
+        field(50187; "Quality Incident"; Boolean)
+        {
+            Caption = 'Quality incident';
+            Editable = false;
         }
 
     }
