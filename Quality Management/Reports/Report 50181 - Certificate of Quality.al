@@ -145,7 +145,6 @@ report 50181 "Certificate of Quality"
 
                 // if not SalesShipmentHeader.get(ArchiveDocumentQuality."Sales Shipment No.") then SalesShipmentHeader.init;
                 // Reads measures value 
-                message('antes getlines');
                 GetLines(ArchiveDocumentQuality, ChemicalValues);
             end;
         }
@@ -232,7 +231,7 @@ report 50181 "Certificate of Quality"
         exit(CurrReport.Preview or MailManagement.IsHandlingGetEmailBody);
     end;
 
-    local procedure GetLines(ArchiveDocumentQuality: Record "Archive Document Qlty Header"; ChemicalValues: Array[20, 3] of Decimal)
+    local procedure GetLines(ArchiveDocumentQuality: Record "Archive Document Qlty Header"; var ChemicalValues: Array[20, 3] of Decimal)
     var
         ArchiveDocQltyLine: Record "Archive Document Qlty Line";
         QualityMeasure: Record "Quality Measure";
@@ -251,10 +250,8 @@ report 50181 "Certificate of Quality"
                     ChemicalValues[i, 1] := ArchiveDocQltyLine."Min. Value";
                     Chemicalvalues[i, 2] := ArchiveDocQltyLine.Value;
                     ChemicalValues[i, 3] := ArchiveDocQltyLine."Max. Value";
-                    message('valor :%1', ChemicalValues[i, 2]);
                 end;
                 i := i + 1;
-                message('%1', i)
             until (ArchiveDocQltyLine.next = 0)
     end;
 

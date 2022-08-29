@@ -26,9 +26,9 @@ codeunit 50180 QualityManagementInstall
         SalesReceivablesSetup: Record "Sales & Receivables Setup";
         InteractionTemplate: Record "Interaction Template";
         InteractionGroup: Record "Interaction Group";
+        InteractionLogEntry: Record "Interaction Log Entry";
         NoSeries: Record "No. Series";
         NoSeriesLine: Record "No. Series Line";
-
 
     begin
 
@@ -78,6 +78,17 @@ codeunit 50180 QualityManagementInstall
         InteractionTemplate."Initiated By" := InteractionTemplate."Initiated By"::Them;
         InteractionTemplate."Quality Incident" := true;
         if InteractionTemplate.insert then;
+
+        InteractionLogEntry.reset;
+        if InteractionLogEntry.FindFirst() then
+            repeat
+                InteractionTemplate.get(InteractionLogEntry."Interaction Template Code");
+                if not InteractionTemplate."Quality Incident" then begin
+                    InteractionLogEntry.Status := InteractionLogEntry.Status::Resolved;
+                    InteractionLogEntry."Quality Incident" := false;
+                    InteractionLogEntry.modify;
+                end;
+            until InteractionLogEntry.next = 0;
 
     end;
 

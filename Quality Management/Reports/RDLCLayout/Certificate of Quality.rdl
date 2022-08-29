@@ -746,7 +746,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>1.47313cm</Height>
+                  <Height>2.37271cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1712,7 +1712,7 @@
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0.1323cm</Top>
             <Left>0.31242cm</Left>
-            <Height>4.92869cm</Height>
+            <Height>5.82827cm</Height>
             <Width>18.2305cm</Width>
             <ZIndex>1</ZIndex>
             <Style />
@@ -2167,7 +2167,6 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -2801,7 +2800,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Min_Value_1.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -2851,19 +2850,18 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Chemical_Min_Value_2">
+                        <Textbox Name="Textbox7">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Min_Value_2.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
-                                    <Format>f3</Format>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -2871,7 +2869,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Chemical_Min_Value_2</rd:DefaultName>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>Gray</Color>
@@ -3574,11 +3572,12 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Value_1.Value</Value>
+                                  <Value>=Fields!Chemical_Max_Value_1.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
+                                    <Format>=Fields!Chemical_Max_Value_1Format.Value</Format>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -3593,26 +3592,6 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <TopBorder>
-                              <Color>Gray</Color>
-                              <Style>Solid</Style>
-                              <Width>0.5pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Gray</Color>
-                              <Style>Solid</Style>
-                              <Width>0.5pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Gray</Color>
-                              <Style>Solid</Style>
-                              <Width>0.5pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Gray</Color>
-                              <Style>Solid</Style>
-                              <Width>0.5pt</Width>
-                            </RightBorder>
                             <BackgroundColor>White</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -3620,18 +3599,19 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Chemical_Value_2">
+                        <Textbox Name="Textbox15">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Value_2.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -3643,7 +3623,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Chemical_Value_2</rd:DefaultName>
+                          <rd:DefaultName>Textbox15</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>Gray</Color>
@@ -4359,14 +4339,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Chemical_Max_Value_1">
+                        <Textbox Name="Textbox25">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Max_Value_1.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -4378,7 +4358,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Chemical_Max_Value_1</rd:DefaultName>
+                          <rd:DefaultName>Textbox25</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>Gray</Color>
@@ -4416,14 +4396,14 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Chemical_Max_Value_2">
+                        <Textbox Name="Textbox21">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Chemical_Max_Value_2.Value</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Nova Light</FontFamily>
                                     <FontSize>8pt</FontSize>
@@ -4435,7 +4415,7 @@
                               <Style />
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Chemical_Max_Value_2</rd:DefaultName>
+                          <rd:DefaultName>Textbox21</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>Gray</Color>

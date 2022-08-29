@@ -18,16 +18,24 @@ Codeunit 50182 "Incident Manegement"
         cCode: Code[20];
     begin
         IF IsFinish = true then begin
-            rConfVentas.Get();
-            rConfVentas.TestField("Incident Nos.");
-            cCode := cNoseries.GetNextNo(rConfVentas."Incident Nos.", WorkDate(), true);
-
-            SegmentLine.VALIDATE("Incident No.", cCode);
-            InteractionLogEntry.VALIDATE("Incident No.", cCode);
-            InteractionLogEntry.VALIDATE("Description Incident", SegmentLine."Description Incident");
-            InteractionLogEntry.VALIDATE("Proposed solution", SegmentLine."Proposed solution");
             InteractionTemplate.get(SegmentLine."Interaction Template Code");
-            InteractionLogEntry."Quality Incident" := InteractionTemplate."Quality Incident";
+            if InteractionTemplate."Quality Incident" then begin
+                rConfVentas.Get();
+                rConfVentas.TestField("Incident Nos.");
+                cCode := cNoseries.GetNextNo(rConfVentas."Incident Nos.", WorkDate(), true);
+
+                SegmentLine.VALIDATE("Incident No.", cCode);
+                InteractionLogEntry.VALIDATE("Incident No.", cCode);
+                InteractionLogEntry.VALIDATE("Description Incident", SegmentLine."Description Incident");
+                InteractionLogEntry.VALIDATE("Proposed solution", SegmentLine."Proposed solution");
+                InteractionLogEntry."Quality Incident" := InteractionTemplate."Quality Incident";
+                InteractionLogEntry.Status := InteractionLogEntry.Status::Open;
+                InteractionLogEntry."Quality Incident" := true;
+            end else begin
+                InteractionLogEntry.Status := InteractionLogEntry.Status::Resolved;
+                InteractionLogEntry."Quality Incident" := false;
+            end;
+            InteractionLogEntry.modify;
             SegmentLine.Modify();
             InteractionLogEntry.Modify();
         end

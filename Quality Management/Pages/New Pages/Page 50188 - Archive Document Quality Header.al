@@ -120,7 +120,7 @@ page 50188 "Archive Document Qlty Header"
             }
 
         }
-        area(navigation)
+        area(Reporting)
         {
             action("Action50184")
             {
@@ -132,9 +132,25 @@ page 50188 "Archive Document Qlty Header"
                 // PromotedIsBig = true;
                 //RunObject = Page 99302;
             }
+
+            action(PrintCertificateofQuality)
+            {
+                ApplicationArea = Basic, Suite;
+                Caption = 'Print Certificate of Quality';
+                Image = PrintReport;
+                Promoted = true;
+                ToolTip = 'Print the certificate of quality that you must send to your customer.';
+
+                trigger OnAction()
+                var
+                    DocQlty: Record "Archive Document Qlty Header";
+                begin
+                    DocQlty.Print(DocQlty."Source Type"::"Sales Order", rec."Source ID", 0)
+                end;
+            }
+
         }
     }
-    var
 
 }
 

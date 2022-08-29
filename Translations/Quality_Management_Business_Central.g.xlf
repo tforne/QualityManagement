@@ -528,11 +528,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Control SourceDocument - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 331772574 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Action50184</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action Action50184 - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 331772574 - Action 3194075647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Init Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -542,6 +537,21 @@
           <source>Post Value</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action PostValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 424208938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action50184</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action Action50184 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 2997608588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print the certificate of quality that you must send to your customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action PrintCertificateofQuality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 331772574 - Action 2997608588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Certificate of Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Archive Document Qlty Header - Action PrintCertificateofQuality - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2634128075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archive Document Qlty Headers</source>
@@ -1757,6 +1767,61 @@
           <source>Quality Measure Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Load Quality Measures - Control QualityMeasureGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Power BI Cust. Interactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 924052577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Description_Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 1732193135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Entry_No_ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 1182619628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interaction Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Interaction_Group_Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 3437102577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Interaction Template Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Interaction_Template_Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 3237059632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality Incident</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Quality_Incident - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 3710480400 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reponsible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Responsible_Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655366396 - QueryColumn 949215307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Power BI Cust. Interact. Logs - QueryColumn No - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1328109492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1635918338">
           <source>Create Incident</source>
